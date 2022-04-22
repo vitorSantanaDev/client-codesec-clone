@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo /> should render logo codesec 1`] = `
+.c0 {
+  cursor: pointer;
+}
+
+<div
+  class=""
+>
+  <img
+    alt="Logo codesec"
+    class="c0"
+    src="/images/codesec-logo.svg"
+  />
+</div>
+`;
