@@ -10,8 +10,17 @@ exports[`<Button /> should render the Button component with "large" style 1`] = 
   font-size: 1.6rem;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
   color: #FFFFFF;
   background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   box-shadow: -10px 15px 40px -15px #FA5770;
 }
 
@@ -32,8 +41,17 @@ exports[`<Button /> should render the Button component with "small" style 1`] = 
   font-size: 1.6rem;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
   color: #FFFFFF;
   background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   box-shadow: -10px 15px 40px -15px #FA5770;
 }
 
@@ -54,8 +72,17 @@ exports[`<Button /> should render the Button component with default style 1`] = 
   font-size: 1.6rem;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
   color: #FFFFFF;
   background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
   box-shadow: -10px 15px 40px -15px #FA5770;
 }
 
@@ -63,5 +90,36 @@ exports[`<Button /> should render the Button component with default style 1`] = 
   class="c0"
 >
   Entrar para turma
+</button>
+`;
+
+exports[`<Button /> should trigger the hover property when the mouse is over the button 1`] = `
+.c0 {
+  width: 100%;
+  max-width: 255px;
+  padding: calc(1.6rem - 0.4rem);
+  font-weight: 600;
+  text-transform: unset;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c0:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: -10px 15px 40px -15px #FA5770;
+}
+
+<button
+  class="c0"
+>
+  Quero me cadastrar
 </button>
 `;

@@ -28,9 +28,16 @@ export const Wrapper = styled.button<WrapperProps>`
 
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 
     color: ${theme.colors.white};
     background: ${theme.colors.redGradient};
-    box-shadow: -10px 15px 40px -15px ${theme.colors.redLight};
+
+    transition: all ease-in-out 300ms;
+
+    &:hover {
+      transform: scale(1.01);
+      box-shadow: -10px 15px 40px -15px ${theme.colors.redLight};
+    }
   `}
 `

@@ -1,5 +1,7 @@
 import { screen, fireEvent } from '@testing-library/react'
 import { renderTheme } from '../../styles/theme/render-theme'
+import { theme } from 'styles/theme/theme'
+
 import Button from '.'
 
 const handleClickButton = jest.fn()
@@ -41,6 +43,22 @@ describe('<Button />', () => {
     expect(button).toHaveStyle({
       'max-width': '330px'
     })
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
+  it('should trigger the hover property when the mouse is over the button', () => {
+    const { container } = renderTheme(
+      <Button handleClick={handleClickButton}>Quero me cadastrar</Button>
+    )
+    const button = screen.getByRole('button', { name: /quero me cadastrar/i })
+    expect(button).toBeInTheDocument()
+    expect(button).toHaveStyleRule(
+      'box-shadow',
+      `-10px 15px 40px -15px ${theme.colors.redLight}`,
+      {
+        modifier: ':hover'
+      }
+    )
 
     expect(container.firstChild).toMatchSnapshot()
   })
