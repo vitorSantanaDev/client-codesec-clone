@@ -3,9 +3,11 @@ export const theme = {
     redPrimary: '#E83752',
     redLight: '#FA5770',
     redDark: '#D4203B',
+    redError: '#EB3D3D',
     redGradient: 'linear-gradient(243.46deg, #FA5770 16.66%, #E83752 83.34%)',
     redGradientDark:
       'linear-gradient(225.05deg, #FA5770 0%, rgba(232, 55, 82, 0) 100%)',
+    greenSucsses: '#32D957',
     white: '#FFFFFF',
     whiteLight: '#F5F0F1',
     whiteDark: '#EDE4E5',

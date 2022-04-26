@@ -6,8 +6,10 @@ declare module 'styled-components' {
       redPrimary: string
       redLight: string
       redDark: string
+      redError: string
       redGradient: string
       redGradientDark: string
+      greenSucsses: string
       white: string
       whiteLight: string
       whiteDark: string
