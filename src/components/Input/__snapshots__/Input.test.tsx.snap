@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should render input with styles when input value is valid 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 > svg {
+  position: absolute;
+  top: 32px;
+  right: 12px;
+}
+
+.c1 > svg {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+  left: 11px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: calc(1.6rem - 1rem);
+  font-weight: 400;
+  font-size: calc(1.6rem - 0.2rem);
+  color: #EB3D3D;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="c2"
+      color="#E83752"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        data-name="Layer 2"
+      >
+        <g
+          data-name="person"
+        >
+          <path
+            d="M12 11a4 4 0 10-4-4 4 4 0 004 4zm0-6a2 2 0 11-2 2 2 2 0 012-2zM12 13a7 7 0 00-7 7 1 1 0 002 0 5 5 0 0110 0 1 1 0 002 0 7 7 0 00-7-7z"
+          />
+        </g>
+      </g>
+    </svg>
+  </span>
+  <div
+    class=""
+  >
+    <span
+      class="c3"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        color="#32D957"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          data-name="Layer 2"
+        >
+          <path
+            d="M9.86 18a1 1 0 01-.73-.32l-4.86-5.17a1 1 0 111.46-1.37l4.12 4.39 8.41-9.2a1 1 0 111.48 1.34l-9.14 10a1 1 0 01-.73.33z"
+            data-name="checkmark"
+          />
+        </g>
+      </svg>
+    </span>
+    <span
+      class="c4"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Input /> should render the input with default styles 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 > svg {
+  position: absolute;
+}
+
+.c1 > svg {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: calc(1.6rem - 1rem);
+  font-weight: 400;
+  font-size: calc(1.6rem - 0.2rem);
+  color: #EB3D3D;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="c2"
+      color="#E83752"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        data-name="Layer 2"
+      >
+        <g
+          data-name="person"
+        >
+          <path
+            d="M12 11a4 4 0 10-4-4 4 4 0 004 4zm0-6a2 2 0 11-2 2 2 2 0 012-2zM12 13a7 7 0 00-7 7 1 1 0 002 0 5 5 0 0110 0 1 1 0 002 0 7 7 0 00-7-7z"
+          />
+        </g>
+      </g>
+    </svg>
+  </span>
+  <div
+    class=""
+  >
+    <span
+      class="c3"
+    />
+    <span
+      class="c4"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Input /> should render the input with error styles when error message exist 1`] = `
+.c2 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c3 > svg {
+  position: absolute;
+  top: 35px;
+  right: 10px;
+}
+
+.c1 > svg {
+  position: absolute;
+  top: 32px;
+  left: 10px;
+  top: 35px;
+}
+
+.c4 {
+  display: inline-block;
+  margin-bottom: calc(1.6rem - 1rem);
+  font-weight: 400;
+  font-size: calc(1.6rem - 0.2rem);
+  color: #EB3D3D;
+}
+
+<div
+  class="c0"
+>
+  <span
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="c2"
+      color="#E83752"
+      fill="currentColor"
+      focusable="false"
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        data-name="Layer 2"
+      >
+        <g
+          data-name="person"
+        >
+          <path
+            d="M12 11a4 4 0 10-4-4 4 4 0 004 4zm0-6a2 2 0 11-2 2 2 2 0 012-2zM12 13a7 7 0 00-7 7 1 1 0 002 0 5 5 0 0110 0 1 1 0 002 0 7 7 0 00-7-7z"
+          />
+        </g>
+      </g>
+    </svg>
+  </span>
+  <div
+    class=""
+  >
+    <span
+      class="c3"
+    >
+      <svg
+        aria-hidden="true"
+        class="c2"
+        color="#EB3D3D"
+        fill="currentColor"
+        focusable="false"
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          data-name="Layer 2"
+        >
+          <path
+            d="M13.41 12l4.3-4.29a1 1 0 10-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 00-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 000 1.42 1 1 0 001.42 0l4.29-4.3 4.29 4.3a1 1 0 001.42 0 1 1 0 000-1.42z"
+            data-name="close"
+          />
+        </g>
+      </svg>
+    </span>
+    <span
+      class="c4"
+    >
+      Error MEssage!
+    </span>
+  </div>
+</div>
+`;
