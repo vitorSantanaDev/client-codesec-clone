@@ -21,13 +21,13 @@ exports[`<Input /> should render input with styles when input value is valid 1`]
 
 .c3 > svg {
   position: absolute;
-  top: 32px;
+  top: 22px;
   right: 12px;
 }
 
 .c1 > svg {
   position: absolute;
-  top: 32px;
+  top: 19px;
   left: 10px;
   left: 11px;
 }
@@ -129,7 +129,7 @@ exports[`<Input /> should render the input with default styles 1`] = `
 
 .c1 > svg {
   position: absolute;
-  top: 32px;
+  top: 19px;
   left: 10px;
 }
 
@@ -205,15 +205,15 @@ exports[`<Input /> should render the input with error styles when error message 
 
 .c3 > svg {
   position: absolute;
-  top: 35px;
+  top: 32px;
   right: 10px;
 }
 
 .c1 > svg {
   position: absolute;
-  top: 32px;
+  top: 19px;
   left: 10px;
-  top: 35px;
+  top: 32px;
 }
 
 .c4 {
