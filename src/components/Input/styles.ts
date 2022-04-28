@@ -55,12 +55,12 @@ export const IconState = styled.span<InputProps>`
       position: absolute;
       ${errorMessage &&
       `
-        top: 35px;
+        top: 32px;
         right: 10px;
         `}
       ${valueIsValid &&
       `
-        top: 32px;
+        top: 22px;
         right: 12px;
         `}
     }
@@ -71,7 +71,7 @@ export const InputIcon = styled.span<InputProps>`
   ${({ errorMessage, valueIsValid }) => css`
     > svg {
       position: absolute;
-      top: 32px;
+      top: 19px;
       left: 10px;
 
       ${valueIsValid &&
@@ -80,7 +80,7 @@ export const InputIcon = styled.span<InputProps>`
       `}
       ${errorMessage &&
       `
-      top: 35px;
+      top: 32px;
       `}
     }
   `}

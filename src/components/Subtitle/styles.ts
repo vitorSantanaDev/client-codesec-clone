@@ -20,7 +20,7 @@ export const Wrapper = styled.span<SubtitleProps>`
     font-weight: 700;
     letter-spacing: 15%;
     text-transform: ${uppercase ? 'uppercase' : 'none'};
-    font-size: calc(${theme.font.sizes.small} + 0.2rem);
+    font-size: calc(${theme.font.sizes.small} - 0.2rem);
 
     ${icon
       ? `
