@@ -159,15 +159,15 @@ exports[`<Form /> should render form with default styles 1`] = `
 
 }
 
-@media screen and (max-width:280px) {
+@media (max-width:420px) {
   .c2 .c11 {
-    width: 263px;
+    width: 325px;
   }
 }
 
-@media screen and (max-width:280px) {
+@media (max-width:420px) {
   .c3 .c9 {
-    width: 263px;
+    width: 325px;
   }
 }
 
@@ -508,15 +508,15 @@ exports[`<Form /> should render form with secondary styles 1`] = `
   }
 }
 
-@media screen and (max-width:280px) {
+@media (max-width:420px) {
   .c6 .c15 {
-    width: 263px;
+    width: 325px;
   }
 }
 
-@media screen and (max-width:280px) {
+@media (max-width:420px) {
   .c7 .c13 {
-    width: 263px;
+    width: 325px;
   }
 }
 

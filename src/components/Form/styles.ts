@@ -40,8 +40,8 @@ export const FormWrapper = styled.div`
       margin-top: calc(${theme.spacings.small} - 0.4rem);
       margin-bottom: ${theme.spacings.small};
 
-      @media screen and (max-width: 280px) {
-        width: 263px;
+      @media ${theme.media.lteSmall} {
+        width: 325px;
       }
     }
   `}
@@ -54,8 +54,8 @@ export const InputsWrapper = styled.div`
     ${InputElement} {
       width: 350px;
 
-      @media screen and (max-width: 280px) {
-        width: 263px;
+      @media ${theme.media.lteSmall} {
+        width: 325px;
       }
     }
   `}

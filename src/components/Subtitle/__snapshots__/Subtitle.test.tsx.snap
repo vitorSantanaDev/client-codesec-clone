@@ -20,7 +20,7 @@ exports[`<Subtitle /> should render subtitle 1`] = `
   -ms-letter-spacing: 15%;
   letter-spacing: 15%;
   text-transform: uppercase;
-  font-size: calc(1.6rem + 0.2rem);
+  font-size: calc(1.6rem - 0.2rem);
 }
 
 <span

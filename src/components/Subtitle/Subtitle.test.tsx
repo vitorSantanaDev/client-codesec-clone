@@ -12,7 +12,7 @@ describe('<Subtitle />', () => {
     expect(subtitle).toHaveStyle({
       'font-weight': '700',
       'letter-spacing': '15%',
-      'font-size': `calc(${theme.font.sizes.small} + 0.2rem)`
+      'font-size': `calc(${theme.font.sizes.small} - 0.2rem)`
     })
     expect(container.firstChild).toMatchSnapshot()
   })
