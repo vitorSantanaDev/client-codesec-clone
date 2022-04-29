@@ -41,6 +41,10 @@ declare module 'styled-components' {
     }
     media: {
       lteMedium: string
+      lteLarge: string
+      ltexLarge: string
+      lteSmall: string
+      ltexSmall: string
     }
     spacings: {
       small: string

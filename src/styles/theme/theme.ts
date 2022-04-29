@@ -38,7 +38,11 @@ export const theme = {
     }
   },
   media: {
-    lteMedium: '(max-width: 768px)'
+    lteMedium: '(max-width: 768px)',
+    lteLarge: '(max-width: 820px)',
+    ltexLarge: '(max-width: 912px)',
+    lteSmall: '(max-width: 420px)',
+    lteXSmall: '(max-width: 280px)'
   },
   spacings: {
     small: '1.6rem',
