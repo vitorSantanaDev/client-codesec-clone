@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionIcons /> should render icons with description 1`] = `
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.c2 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.c3 {
+  width: 100%;
+  max-width: 120px;
+  color: #EDE4E5;
+  font-size: 1.6rem;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+    <div
+      class="c2"
+    >
+      <img
+        alt="Exclusividade no mercado"
+        src="/images/icon-calendar.svg"
+      />
+      <p
+        class="c3"
+      >
+        Exclusividade no mercado
+      </p>
+    </div>
+  </div>
+</div>
+`;
