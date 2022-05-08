@@ -38,7 +38,7 @@ const SectionHero = ({
           </Subtitle>
           <Heading>{title}</Heading>
           <S.Description>{description}</S.Description>
-          <Link href={link}>
+          <Link href={link || ''}>
             <S.LinkElement>
               <Subtitle icon={true} iconUrl={linkIcon}>
                 {linkText}
