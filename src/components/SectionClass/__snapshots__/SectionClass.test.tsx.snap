@@ -1,0 +1,463 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionClass /> should match snapshot 1`] = `
+.c15 {
+  width: 100%;
+  max-width: 190px;
+  padding: calc(1.6rem - 0.4rem);
+  font-weight: 600;
+  text-transform: unset;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c15:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: -10px 15px 40px -15px #FA5770;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  font-size: 5.6rem;
+  color: white;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c11 {
+  font-size: 2.4rem;
+  color: white;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c3 {
+  background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  -webkit-letter-spacing: 15%;
+  -moz-letter-spacing: 15%;
+  -ms-letter-spacing: 15%;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  font-size: calc(1.6rem - 0.2rem);
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 6.4rem;
+}
+
+.c6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 4.8rem;
+  margin-bottom: 4.0rem;
+}
+
+.c7 > .c2 {
+  font-size: calc(1.6rem - 0.1rem);
+}
+
+.c8 {
+  max-width: 64px;
+}
+
+.c9 {
+  position: relative;
+  background: #0A0909;
+  padding: 2.4rem 4.0rem;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+  border-radius: 3px;
+}
+
+.c9::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  margin: -1.5px;
+  border-radius: 3px;
+  background: linear-gradient(225.05deg,#FA5770 0%,rgba(232,55,82,0) 100%);
+}
+
+.c9:hover {
+  background: linear-gradient(225.05deg,rgba(250,87,112,0.1) 0%,rgba(232,55,82,0) 50%);
+}
+
+.c9 > .c4 {
+  margin-bottom: 1.6rem;
+}
+
+.c10 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 1.6rem;
+  border-radius: 2px;
+  color: #121111;
+  background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+}
+
+.c12 {
+  width: 100%;
+  max-width: 537px;
+  line-height: 150%;
+  font-size: 1.6rem;
+  color: #A3A3A3;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c13 > .c14 {
+  margin-top: 2.4rem;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c11 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 > .c4 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 > .c4 {
+    font-size: 3rem;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class=""
+  >
+    <div
+      class="c1"
+    >
+      <span
+        class="c2 c3"
+        color="redGradient"
+      >
+        Aulas
+      </span>
+      <h1
+        class="c4 c5"
+        color="white"
+      >
+        O que você vai aprender
+      </h1>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h1
+          class="c4 c5"
+          color="white"
+        >
+          14/03
+        </h1>
+        <span
+          class="c2 c3"
+          color="redGradient"
+        >
+          Terça as - 20:30H
+        </span>
+      </div>
+      <img
+        alt="Icon"
+        class="c8"
+        src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Aula 01
+        </span>
+        <h4
+          class="c4 c11"
+          color="white"
+        >
+          Hackeando tudo
+        </h4>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h1
+          class="c4 c5"
+          color="white"
+        >
+          14/03
+        </h1>
+        <span
+          class="c2 c3"
+          color="redGradient"
+        >
+          Terça as - 20:30H
+        </span>
+      </div>
+      <img
+        alt="Icon"
+        class="c8"
+        src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Aula 01
+        </span>
+        <h4
+          class="c4 c11"
+          color="white"
+        >
+          Hackeando tudo
+        </h4>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h1
+          class="c4 c5"
+          color="white"
+        >
+          14/03
+        </h1>
+        <span
+          class="c2 c3"
+          color="redGradient"
+        >
+          Terça as - 20:30H
+        </span>
+      </div>
+      <img
+        alt="Icon"
+        class="c8"
+        src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Aula 01
+        </span>
+        <h4
+          class="c4 c11"
+          color="white"
+        >
+          Hackeando tudo
+        </h4>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h1
+          class="c4 c5"
+          color="white"
+        >
+          14/03
+        </h1>
+        <span
+          class="c2 c3"
+          color="redGradient"
+        >
+          Terça as - 20:30H
+        </span>
+      </div>
+      <img
+        alt="Icon"
+        class="c8"
+        src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Aula 01
+        </span>
+        <h4
+          class="c4 c11"
+          color="white"
+        >
+          Hackeando tudo
+        </h4>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+      </div>
+    </div>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <h1
+          class="c4 c5"
+          color="white"
+        >
+          14/03
+        </h1>
+        <span
+          class="c2 c3"
+          color="redGradient"
+        >
+          Terça as - 20:30H
+        </span>
+      </div>
+      <img
+        alt="Icon"
+        class="c8"
+        src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+      />
+      <div
+        class="c9"
+      >
+        <span
+          class="c10"
+        >
+          Aula 01
+        </span>
+        <h4
+          class="c4 c11"
+          color="white"
+        >
+          Hackeando tudo
+        </h4>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+      </div>
+    </div>
+    <div
+      class="c13"
+    >
+      <button
+        class="c14 c15"
+      >
+        Cadastre-se agora
+      </button>
+    </div>
+  </div>
+</div>
+`;
