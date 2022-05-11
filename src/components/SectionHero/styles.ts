@@ -4,7 +4,9 @@ import { Wrapper as Heading } from 'components/Heading/styles'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    height: 90vh;
+    padding: calc(${theme.spacings.xxhuge} + 7rem)
+      calc(${theme.spacings.medium} - 1.4rem);
+
     display: grid;
     align-items: center;
     gap: ${theme.spacings.medium};

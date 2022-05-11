@@ -7,6 +7,8 @@ export const theme = {
     redGradient: 'linear-gradient(243.46deg, #FA5770 16.66%, #E83752 83.34%)',
     redGradientDark:
       'linear-gradient(225.05deg, #FA5770 0%, rgba(232, 55, 82, 0) 100%)',
+    redGradientLight:
+      'linear-gradient(225.05deg, rgba(250, 87, 112, 0.1) 0%, rgba(232, 55, 82, 0) 50%)',
     greenSucsses: '#32D957',
     white: '#FFFFFF',
     whiteLight: '#F5F0F1',
