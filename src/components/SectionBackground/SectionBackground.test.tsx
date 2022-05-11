@@ -14,7 +14,6 @@ describe('<SectionBackground />', () => {
     expect(heading).toBeInTheDocument()
     expect(container.firstChild).toHaveStyle({
       width: '100%',
-      'min-height': '100vh',
 
       'background-size': 'cover',
       'background-position': 'center',

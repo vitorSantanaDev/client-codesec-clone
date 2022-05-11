@@ -45,7 +45,6 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
 }
 
 .c1 {
-  height: 90vh;
   display: grid;
   -webkit-align-items: center;
   -webkit-box-align: center;

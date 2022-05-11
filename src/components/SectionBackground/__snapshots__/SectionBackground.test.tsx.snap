@@ -3,7 +3,6 @@
 exports[`<SectionBackground /> should render the section with background and heading 1`] = `
 .c0 {
   width: 100%;
-  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

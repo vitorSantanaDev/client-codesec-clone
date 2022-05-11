@@ -249,7 +249,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 }
 
 .c2 {
-  height: 90vh;
+  padding: calc(8rem + 7rem) calc(2.4rem - 1.4rem);
   display: grid;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -279,7 +279,6 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 
 .c0 {
   width: 100%;
-  min-height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
