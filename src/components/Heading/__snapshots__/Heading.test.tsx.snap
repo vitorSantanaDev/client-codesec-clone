@@ -4,6 +4,7 @@ exports[`<Heading /> should render an "h2" with the "large" font size 1`] = `
 .c0 {
   font-size: 3.2rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
@@ -25,6 +26,7 @@ exports[`<Heading /> should render an "h3" with the "medium" font size 1`] = `
 .c0 {
   font-size: 2.4rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
@@ -46,6 +48,7 @@ exports[`<Heading /> should render an "h4" with the "small" font size 1`] = `
 .c0 {
   font-size: 2.4rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
@@ -67,6 +70,7 @@ exports[`<Heading /> should render heading with "xlarge" font size when screen s
 .c0 {
   font-size: 5.6rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
@@ -88,6 +92,7 @@ exports[`<Heading /> should render title with default styles 1`] = `
 .c0 {
   font-size: 5.6rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 

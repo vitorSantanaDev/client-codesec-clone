@@ -52,6 +52,7 @@ export const Wrapper = styled.h1<HeadingProps>`
   ${({ theme, size, color }) => css`
     ${titleSize[size]}
     color: ${color};
+    font-weight: 600;
     font-family: ${theme.font.family.default};
     ${mediaFont(theme)}
   `}

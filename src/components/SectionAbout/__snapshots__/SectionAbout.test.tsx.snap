@@ -19,6 +19,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
 .c6 {
   font-size: 5.6rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 

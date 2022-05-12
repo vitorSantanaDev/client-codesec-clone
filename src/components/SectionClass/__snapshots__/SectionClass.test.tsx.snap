@@ -42,12 +42,14 @@ exports[`<SectionClass /> should match snapshot 1`] = `
 .c5 {
   font-size: 5.6rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
 .c11 {
   font-size: 2.4rem;
   color: white;
+  font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
