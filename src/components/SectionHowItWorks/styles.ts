@@ -119,7 +119,7 @@ export const BoxStep = styled.div`
       font-size: ${theme.font.sizes.medium};
       margin-bottom: calc(${theme.spacings.medium} - 0.4rem);
 
-      &::before {
+      /* &::before {
         content: '';
         width: 345px;
         height: 1px;
@@ -128,7 +128,7 @@ export const BoxStep = styled.div`
         position: absolute;
         display: inline-block;
         background: ${theme.colors.redGradientDark};
-      }
+      } */
     }
   `}
 `

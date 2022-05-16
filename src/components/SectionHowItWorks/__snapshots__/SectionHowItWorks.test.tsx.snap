@@ -152,17 +152,6 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   margin-bottom: calc(2.4rem - 0.4rem);
 }
 
-.c9 > .c5::before {
-  content: '';
-  width: 345px;
-  height: 1px;
-  top: -51px;
-  left: -144px;
-  position: absolute;
-  display: inline-block;
-  background: linear-gradient(225.05deg,#FA5770 0%,rgba(232,55,82,0) 100%);
-}
-
 .c10 {
   width: 64px;
   z-index: 10000;
