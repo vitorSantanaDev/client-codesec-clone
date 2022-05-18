@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionInstructor /> should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c5 {
+  font-size: 5.6rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c3 {
+  background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  -webkit-letter-spacing: 15%;
+  -moz-letter-spacing: 15%;
+  -ms-letter-spacing: 15%;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  font-size: calc(1.6rem - 0.2rem);
+}
+
+.c1 {
+  width: 100%;
+}
+
+.c1 > .c2 {
+  margin-bottom: calc(1.6rem - 0.8rem);
+}
+
+.c6 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 4.0rem;
+}
+
+.c7 > .c4 {
+  font-size: 2.4rem;
+}
+
+.c8 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('photo instructor');
+  margin-bottom: 2.4rem;
+}
+
+.c10 {
+  width: 100%;
+  max-width: 624px;
+  color: #A3A3A3;
+  font-size: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.c11 {
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .c5 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 > .c4 {
+    font-size: calc(3.2rem + 0.4rem);
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 > .c4 {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <span
+      class="c2 c3"
+      color="redGradient"
+    >
+      Subtitle
+    </span>
+    <h1
+      class="c4 c5"
+      color="white"
+    >
+      Title Example Instructor Section
+    </h1>
+    <div
+      class="c6"
+    >
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        />
+        <h5
+          class="c4 c5"
+          color="white"
+        >
+          Name of Instructor
+        </h5>
+      </div>
+      <div
+        class="c9"
+      >
+        <p
+          class="c10"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+        </p>
+        <a
+          class="c11"
+        >
+          <span
+            class="c2 c3"
+            color="redGradient"
+          >
+            Saiba mais
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
