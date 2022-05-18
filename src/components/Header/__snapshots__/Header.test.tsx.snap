@@ -69,14 +69,20 @@ exports[`<Header /> should render Header with correct elements 1`] = `
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
-<div
+@media (max-width:768px) {
+  .c0 .logo {
+    width: 145px;
+  }
+}
+
+<header
   class="c0"
 >
   <div
@@ -84,7 +90,7 @@ exports[`<Header /> should render Header with correct elements 1`] = `
   >
     <img
       alt="Logo codesec"
-      class="c1 c2"
+      class="c1 c2 logo"
       src="/images/codesec-logo.svg"
     />
   </div>
@@ -93,7 +99,7 @@ exports[`<Header /> should render Header with correct elements 1`] = `
   >
     Inscreva-se
   </button>
-</div>
+</header>
 `;
 
 exports[`<Header /> should render Header with correct styles 1`] = `
@@ -165,14 +171,20 @@ exports[`<Header /> should render Header with correct styles 1`] = `
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
-<div
+@media (max-width:768px) {
+  .c0 .logo {
+    width: 145px;
+  }
+}
+
+<header
   class="c0"
 >
   <div
@@ -180,7 +192,7 @@ exports[`<Header /> should render Header with correct styles 1`] = `
   >
     <img
       alt="Logo codesec"
-      class="c1 c2"
+      class="c1 c2 logo"
       src="/images/codesec-logo.svg"
     />
   </div>
@@ -189,5 +201,5 @@ exports[`<Header /> should render Header with correct styles 1`] = `
   >
     Inscreva-se
   </button>
-</div>
+</header>
 `;

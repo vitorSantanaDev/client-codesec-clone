@@ -14,9 +14,14 @@ export const HeadingAndSubtitle = styled.div`
     flex-direction: column;
     margin-bottom: ${theme.spacings.xhuge};
 
+    > ${Subtitle} {
+      margin-bottom: calc(${theme.spacings.small} - 0.8rem);
+    }
+
     @media ${theme.media.lteMedium} {
       > ${Heading} {
-        font-size: 3rem;
+        text-align: center;
+        font-size: calc(${theme.font.sizes.large} + 0.4rem);
       }
     }
   `}

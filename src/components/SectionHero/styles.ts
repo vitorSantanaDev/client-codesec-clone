@@ -4,7 +4,7 @@ import { Wrapper as Heading } from 'components/Heading/styles'
 
 export const Wrapper = styled.div`
   ${({ theme }) => css`
-    padding: calc(${theme.spacings.xxhuge} + 7rem)
+    padding: calc(${theme.spacings.xxhuge} + 6rem)
       calc(${theme.spacings.medium} - 1.4rem);
 
     display: grid;
@@ -54,6 +54,20 @@ export const Description = styled.p`
   `}
 `
 
-export const LinkElement = styled.a``
+export const LinkElement = styled.a`
+  ${({ theme }) => css`
+    display: inline-block;
 
-export const FormWrapper = styled.div``
+    @media ${theme.media.lteMedium} {
+      margin-bottom: ${theme.spacings.large};
+    }
+  `}
+`
+
+export const FormWrapper = styled.div`
+  ${({ theme }) => css`
+    @media ${theme.media.lteMedium} {
+      margin-top: ${theme.spacings.large};
+    }
+  `}
+`

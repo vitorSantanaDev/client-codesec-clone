@@ -5,12 +5,13 @@ type LogoProps = {
   srcImage: string
   altText: string
   url: string
+  className?: string
 }
 
-const Logo = ({ srcImage, altText, url }: LogoProps) => (
+const Logo = ({ srcImage, altText, url, className }: LogoProps) => (
   <S.Wrapper>
     <Link href={url}>
-      <S.Logo src={srcImage} alt={altText} />
+      <S.Logo className={className} src={srcImage} alt={altText} />
     </Link>
   </S.Wrapper>
 )

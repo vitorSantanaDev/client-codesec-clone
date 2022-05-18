@@ -32,7 +32,7 @@ const Form = ({
   handleSubmit
 }: FormProps) => (
   <S.Wrapper onSubmit={handleSubmit}>
-    <Logo url={url} srcImage={srcImage} altText={altText} />
+    <Logo className="logo" url={url} srcImage={srcImage} altText={altText} />
     {title ? <Subtitle>{subtitle}</Subtitle> : null}
     {title ? (
       <Heading size="medium" as="h4">

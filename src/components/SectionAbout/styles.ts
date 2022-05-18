@@ -23,6 +23,11 @@ export const ContentWrapperLeft = styled.div`
     ${Heading} {
       max-width: 328px;
       margin-bottom: ${theme.spacings.medium};
+
+      @media ${theme.media.lteMedium} {
+        max-width: 210px;
+        font-size: calc(${theme.font.sizes.large} + 0.4rem);
+      }
     }
   `}
 `

@@ -108,6 +108,13 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
   }
 }
 
+@media (max-width:768px) {
+  .c2 .c5 {
+    max-width: 210px;
+    font-size: calc(3.2rem + 0.4rem);
+  }
+}
+
 <div
   class="c0"
 >

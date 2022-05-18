@@ -159,6 +159,12 @@ exports[`<Form /> should render form with default styles 1`] = `
 
 }
 
+@media (max-width:768px) {
+  .c0 .logo {
+    width: 85px;
+  }
+}
+
 @media (max-width:420px) {
   .c2 .c11 {
     width: 325px;
@@ -179,7 +185,7 @@ exports[`<Form /> should render form with default styles 1`] = `
   >
     <img
       alt="Logo codesec"
-      class="c1"
+      class="c1 logo"
       src="/images/logo.svg"
     />
   </div>
@@ -509,6 +515,12 @@ exports[`<Form /> should render form with secondary styles 1`] = `
   }
 }
 
+@media (max-width:768px) {
+  .c0 .logo {
+    width: 85px;
+  }
+}
+
 @media (max-width:420px) {
   .c6 .c15 {
     width: 325px;
@@ -529,7 +541,7 @@ exports[`<Form /> should render form with secondary styles 1`] = `
   >
     <img
       alt="Logo codesec"
-      class="c1"
+      class="c1 logo"
       src="/images/logo.svg"
     />
   </div>

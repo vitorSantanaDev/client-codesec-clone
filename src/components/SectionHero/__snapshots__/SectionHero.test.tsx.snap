@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SectionHero /> should to match snapshot 1`] = `
-.c11 {
+.c12 {
   width: 352px;
   height: 4px;
   background: #edeff0;
@@ -24,13 +24,13 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   justify-content: center;
 }
 
-.c18 {
+.c20 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
 }
 
-.c24 {
+.c26 {
   width: 100%;
   max-width: 330px;
   padding: calc(1.6rem - 0.4rem);
@@ -46,7 +46,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   transition: all ease-in-out 300ms;
 }
 
-.c24:hover {
+.c26:hover {
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
   transform: scale(1.01);
@@ -60,7 +60,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   font-family: 'Raleway',sans-serif;
 }
 
-.c16 {
+.c18 {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -72,7 +72,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   justify-content: space-between;
 }
 
-.c22 {
+.c24 {
   width: 100%;
   display: block;
   padding: calc(1.6rem - 0.4rem) 0 calc(1.6rem - 0.4rem) 4.0rem;
@@ -84,21 +84,21 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   background-color: #1C1B1B;
 }
 
-.c22:focus {
+.c24:focus {
   background-color: #121111;
 }
 
-.c19 > svg {
+.c21 > svg {
   position: absolute;
 }
 
-.c17 > svg {
+.c19 > svg {
   position: absolute;
   top: 19px;
   left: 10px;
 }
 
-.c20 {
+.c22 {
   display: inline-block;
   margin-bottom: calc(1.6rem - 1rem);
   font-weight: 400;
@@ -106,7 +106,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   color: #EB3D3D;
 }
 
-.c13 {
+.c15 {
   cursor: pointer;
 }
 
@@ -143,7 +143,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c9 {
+.c10 {
   background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -165,7 +165,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   font-size: calc(1.6rem - 0.2rem);
 }
 
-.c9::before {
+.c10::before {
   content: '';
   width: 24px;
   height: 24px;
@@ -176,7 +176,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   margin-right: calc(1.6rem - 1rem);
 }
 
-.c25 {
+.c27 {
   background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -198,7 +198,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   font-size: calc(1.6rem - 0.2rem);
 }
 
-.c12 {
+.c14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -212,15 +212,15 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   flex-direction: column;
 }
 
-.c12 .c4 {
+.c14 .c4 {
   margin-top: calc(1.6rem - 0.2rem);
 }
 
-.c12 .c6 {
+.c14 .c6 {
   margin-top: calc(1.6rem - 0.8rem);
 }
 
-.c14 {
+.c16 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -235,22 +235,22 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   flex-direction: column;
 }
 
-.c14 .c23 {
+.c16 .c25 {
   max-width: 350px;
   margin-top: calc(1.6rem - 0.4rem);
   margin-bottom: 1.6rem;
 }
 
-.c15 {
+.c17 {
   margin-bottom: 1.6rem;
 }
 
-.c15 .c21 {
+.c17 .c23 {
   width: 350px;
 }
 
 .c2 {
-  padding: calc(8rem + 7rem) calc(2.4rem - 1.4rem);
+  padding: calc(8rem + 6rem) calc(2.4rem - 1.4rem);
   display: grid;
   -webkit-align-items: center;
   -webkit-box-align: center;
@@ -260,7 +260,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   grid-template-columns: 3fr 1fr 2fr;
 }
 
-.c2 .c10 {
+.c2 .c11 {
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
@@ -278,6 +278,10 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   font-size: 1.6rem;
 }
 
+.c9 {
+  display: inline-block;
+}
+
 .c0 {
   width: 100%;
   background-size: cover;
@@ -293,25 +297,31 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 }
 
 @media screen and (max-width:560px) {
-  .c12 .c4 {
+  .c14 .c4 {
     font-size: calc(1.6rem - 0.4rem);
   }
 }
 
 @media screen and (max-width:560px) {
-  .c12 .c6 {
+  .c14 .c6 {
     font-size: 2.4rem;
   }
 }
 
+@media (max-width:768px) {
+  .c14 .logo {
+    width: 85px;
+  }
+}
+
 @media (max-width:420px) {
-  .c14 .c23 {
+  .c16 .c25 {
     width: 325px;
   }
 }
 
 @media (max-width:420px) {
-  .c15 .c21 {
+  .c17 .c23 {
     width: 325px;
   }
 }
@@ -328,7 +338,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 }
 
 @media (max-width:912px) {
-  .c2 .c10 {
+  .c2 .c11 {
     -webkit-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -336,7 +346,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 }
 
 @media (max-width:420px) {
-  .c2 .c10 {
+  .c2 .c11 {
     width: 325px;
   }
 }
@@ -344,6 +354,18 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 @media (max-width:768px) {
   .c3 .c6 {
     font-size: calc(3.2rem + 0.4rem);
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c13 {
+    margin-top: 3.2rem;
   }
 }
 
@@ -377,10 +399,10 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
           Lorem ipsum dolor sit amet
         </p>
         <a
-          class=""
+          class="c9"
         >
           <span
-            class="c4 c9"
+            class="c4 c10"
             color="redGradient"
           >
             Ler mais
@@ -388,38 +410,38 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
         </a>
       </div>
       <div
-        class="c10 c11"
+        class="c11 c12"
       />
       <div
-        class=""
+        class="c13"
       >
         <form
-          class="c12"
+          class="c14"
         >
           <div
             class=""
           >
             <img
               alt="Logo codesec"
-              class="c13"
+              class="c15 logo"
               src="/images/logo-2-codesec.svg"
             />
           </div>
           <div
-            class="c14"
+            class="c16"
           >
             <div
-              class="c15"
+              class="c17"
             >
               <div
-                class="c16"
+                class="c18"
               >
                 <span
-                  class="c17"
+                  class="c19"
                 >
                   <svg
                     aria-hidden="true"
-                    class="c18"
+                    class="c20"
                     color="#E83752"
                     fill="currentColor"
                     focusable="false"
@@ -445,15 +467,15 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
                   class=""
                 >
                   <span
-                    class="c19"
+                    class="c21"
                   />
                   <span
-                    class="c20"
+                    class="c22"
                   />
                 </div>
               </div>
               <input
-                class="c21 c22"
+                class="c23 c24"
                 id="name"
                 name="name"
                 placeholder="Seu nome"
@@ -461,14 +483,14 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
                 value=""
               />
               <div
-                class="c16"
+                class="c18"
               >
                 <span
-                  class="c17"
+                  class="c19"
                 >
                   <svg
                     aria-hidden="true"
-                    class="c18"
+                    class="c20"
                     color="#E83752"
                     fill="currentColor"
                     focusable="false"
@@ -491,15 +513,15 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
                   class=""
                 >
                   <span
-                    class="c19"
+                    class="c21"
                   />
                   <span
-                    class="c20"
+                    class="c22"
                   />
                 </div>
               </div>
               <input
-                class="c21 c22"
+                class="c23 c24"
                 id="email"
                 name="email"
                 placeholder="Seu Email"
@@ -508,14 +530,14 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
               />
             </div>
             <button
-              class="c23 c24"
+              class="c25 c26"
             >
               Quero me cadastrar
             </button>
           </div>
           <svg
             aria-hidden="true"
-            class="c18"
+            class="c20"
             color="#E83752"
             fill="currentColor"
             focusable="false"
@@ -545,7 +567,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
             </g>
           </svg>
           <span
-            class="c4 c25"
+            class="c4 c27"
             color="redGradient"
           >
             o acesso será enviado em seu e-mail

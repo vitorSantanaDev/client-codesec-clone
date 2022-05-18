@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { Logo as LogoElement } from 'components/Logo/styles'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.header`
   ${({ theme }) => css`
     width: 100%;
     padding: calc(${theme.spacings.small} - 0.6rem);
@@ -27,7 +27,13 @@ export const Wrapper = styled.div`
 
     @media ${theme.media.lteMedium} {
       align-items: center;
-      justify-content: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      @media ${theme.media.lteMedium} {
+        width: 145px;
+      }
     }
   `}
 `

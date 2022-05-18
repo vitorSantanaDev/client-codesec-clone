@@ -16,21 +16,21 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   justify-content: center;
 }
 
-.c6 {
+.c7 {
   font-size: 5.6rem;
   color: white;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
-.c11 {
+.c12 {
   font-size: 2.4rem;
   color: white;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
-.c4 {
+.c5 {
   background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -57,7 +57,11 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   padding: 3.2rem 0;
 }
 
-.c3 > .c5 {
+.c3 > .c4 {
+  margin-bottom: calc(1.6rem - 0.8rem);
+}
+
+.c3 > .c6 {
   width: 100%;
   max-width: 592px;
 }
@@ -73,7 +77,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   margin-bottom: 5.6rem;
 }
 
-.c7 {
+.c8 {
   width: 100%;
   max-width: 404px;
   line-height: 150%;
@@ -81,7 +85,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   font-size: 1.6rem;
 }
 
-.c8 {
+.c9 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -98,7 +102,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   justify-content: space-between;
 }
 
-.c12 {
+.c13 {
   width: 100%;
   max-width: 300px;
   line-height: 150%;
@@ -106,7 +110,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   font-size: 1.6rem;
 }
 
-.c9 {
+.c10 {
   width: 100%;
   position: relative;
   padding: 2.4rem 1.6rem;
@@ -132,7 +136,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   transition: 300ms ease-in-out;
 }
 
-.c9::before {
+.c10::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -142,58 +146,43 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   background: linear-gradient(225.05deg,#FA5770 0%,rgba(232,55,82,0) 100%);
 }
 
-.c9:hover {
+.c10:hover {
   background: linear-gradient(225.05deg,rgba(250,87,112,0.1) 0%,rgba(232,55,82,0) 50%);
 }
 
-.c9 > .c5 {
+.c10 > .c6 {
   position: relative;
   font-size: 2.4rem;
   margin-bottom: calc(2.4rem - 0.4rem);
 }
 
-.c10 {
+.c11 {
   width: 64px;
   z-index: 10000;
   margin-bottom: calc(2.4rem - 0.4rem);
 }
 
 @media (max-width:768px) {
-  .c6 {
+  .c7 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c11 {
+  .c12 {
     font-size: 4.0rem;
   }
 }
 
 @media screen and (max-width:520px) {
-  .c3 > .c5 {
-    text-align: center;
+  .c3 > .c6 {
     margin-bottom: 2.4rem;
   }
 }
 
-@media screen and (max-width:520px) {
-  .c3 {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+@media (max-width:768px) {
+  .c3 > .c6 {
+    font-size: calc(3.2rem + 0.4rem);
   }
 }
 
@@ -203,14 +192,8 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
   }
 }
 
-@media screen and (max-width:520px) {
-  .c7 {
-    text-align: center;
-  }
-}
-
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -230,83 +213,83 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
         class="c3"
       >
         <span
-          class="c4"
+          class="c4 c5"
           color="redGradient"
         >
           Subtitle
         </span>
         <h1
-          class="c5 c6"
+          class="c6 c7"
           color="white"
         >
           Title Section example
         </h1>
       </div>
       <p
-        class="c7"
+        class="c8"
       >
         Lorem ipsum dolor sit amet pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
       </p>
     </div>
     <div
-      class="c8"
+      class="c9"
     >
       <div
-        class="c9"
+        class="c10"
       >
         <img
           alt="Icon"
-          class="c10"
+          class="c11"
           src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
         />
         <h5
-          class="c5 c11"
+          class="c6 c12"
           color="white"
         >
           Passo 1
         </h5>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
         </p>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <img
           alt="Icon"
-          class="c10"
+          class="c11"
           src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
         />
         <h5
-          class="c5 c11"
+          class="c6 c12"
           color="white"
         >
           Passo 1
         </h5>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
         </p>
       </div>
       <div
-        class="c9"
+        class="c10"
       >
         <img
           alt="Icon"
-          class="c10"
+          class="c11"
           src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
         />
         <h5
-          class="c5 c11"
+          class="c6 c12"
           color="white"
         >
           Passo 1
         </h5>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
         </p>

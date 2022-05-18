@@ -25,6 +25,12 @@ export const Wrapper = styled.form`
         font-size: ${theme.font.sizes.medium};
       }
     }
+
+    .logo {
+      @media ${theme.media.lteMedium} {
+        width: 85px;
+      }
+    }
   `}
 `
 

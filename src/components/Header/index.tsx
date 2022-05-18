@@ -10,7 +10,7 @@ type HeaderProps = {
 
 const Header = ({ logo, logoAltText, buttontext }: HeaderProps) => (
   <S.Wrapper>
-    <Logo url="/" srcImage={logo} altText={logoAltText} />
+    <Logo className="logo" url="/" srcImage={logo} altText={logoAltText} />
     <Button size="small">{buttontext}</Button>
   </S.Wrapper>
 )

@@ -90,6 +90,10 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   margin-bottom: 6.4rem;
 }
 
+.c1 > .c2 {
+  margin-bottom: calc(1.6rem - 0.8rem);
+}
+
 .c6 {
   width: 100%;
   display: -webkit-box;
@@ -194,7 +198,8 @@ exports[`<SectionClass /> should match snapshot 1`] = `
 
 @media (max-width:768px) {
   .c1 > .c4 {
-    font-size: 3rem;
+    text-align: center;
+    font-size: calc(3.2rem + 0.4rem);
   }
 }
 

@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
 export const ContentWrapper = styled.div`
   ${({ theme }) => css`
     > ${Subtitle} {
+      margin-bottom: calc(${theme.spacings.small} - 0.8rem);
     }
 
     > ${Heading} {
@@ -19,15 +20,12 @@ export const ContentWrapper = styled.div`
       max-width: 592px;
 
       @media screen and (max-width: 520px) {
-        text-align: center;
         margin-bottom: ${theme.spacings.medium};
       }
-    }
-    @media screen and (max-width: 520px) {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      justify-content: center;
+
+      @media ${theme.media.lteMedium} {
+        font-size: calc(${theme.font.sizes.large} + 0.4rem);
+      }
     }
   `}
 `
@@ -53,10 +51,6 @@ export const Description = styled.p`
     line-height: 150%;
     color: ${theme.colors.gray7};
     font-size: ${theme.font.sizes.small};
-
-    @media screen and (max-width: 520px) {
-      text-align: center;
-    }
   `}
 `
 
