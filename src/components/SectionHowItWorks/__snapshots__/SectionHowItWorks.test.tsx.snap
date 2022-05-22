@@ -54,7 +54,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
 
 .c1 {
   width: 100%;
-  padding: 3.2rem 0;
+  padding: 6.4rem 0;
 }
 
 .c3 > .c4 {

@@ -5,7 +5,7 @@ import { Wrapper as Subtitle } from 'components/Subtitle/styles'
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;
-    padding: ${theme.spacings.large} 0;
+    padding: ${theme.spacings.xhuge} 0;
   `}
 `
 

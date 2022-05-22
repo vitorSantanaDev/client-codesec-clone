@@ -4,7 +4,9 @@ import { Wrapper as Heading } from 'components/Heading/styles'
 import { Wrapper as Button } from 'components/Button/styles'
 
 export const Wrapper = styled.div`
-  ${() => css``}
+  ${({ theme }) => css`
+    padding: ${theme.spacings.huge} 0;
+  `}
 `
 
 export const HeadingAndSubtitle = styled.div`
