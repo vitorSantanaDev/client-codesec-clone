@@ -34,7 +34,12 @@ const SectionInstructor = ({
           <S.InstructorPhoto
             urlImage={instructor.photoUrl || '/images/icon-autor.svg'}
           />
-          <Heading as="h5">{instructor.name}</Heading>
+          <S.InstructorNameAndProfessional>
+            <Heading as="h5">{instructor.name}</Heading>
+            <S.InstructorProfessional>
+              Software Engineer
+            </S.InstructorProfessional>
+          </S.InstructorNameAndProfessional>
         </S.InstructorData>
         <S.AboutInstructor>
           <S.DescriptionInstructor>

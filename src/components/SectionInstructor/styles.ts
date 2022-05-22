@@ -9,6 +9,7 @@ type PhotoContainerProps = {
 export const Wrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;
+    padding: ${theme.spacings.xhuge} 0;
 
     > ${Subtitle} {
       margin-bottom: calc(${theme.spacings.small} - 0.8rem);
@@ -38,14 +39,9 @@ export const InstructorInfoWrapper = styled.div`
 `
 export const InstructorData = styled.div`
   ${({ theme }) => css`
-    > ${Heading} {
-      font-size: ${theme.font.sizes.medium};
-
-      @media ${theme.media.lteMedium} {
-        font-size: ${theme.font.sizes.small};
-        margin-bottom: ${theme.spacings.medium};
-      }
-    }
+    display: flex;
+    gap: ${theme.spacings.medium};
+    align-items: center;
 
     @media ${theme.media.lteMedium} {
       display: flex;
@@ -72,6 +68,33 @@ export const InstructorPhoto = styled.div<PhotoContainerProps>`
     margin-bottom: ${theme.spacings.medium};
   `}
 `
+
+export const InstructorNameAndProfessional = styled.div`
+  ${({ theme }) => css`
+    ${Heading} {
+      margin-bottom: calc(${theme.spacings.small} - 0.5rem);
+      font-size: calc(${theme.font.sizes.medium} + 0.2rem);
+    }
+
+    @media ${theme.media.lteMedium} {
+      text-align: center;
+    }
+  `}
+`
+
+export const InstructorProfessional = styled.span`
+  ${({ theme }) => css`
+    display: inline-block;
+    color: ${theme.colors.gray7};
+    font-size: ${theme.spacings.small};
+
+    @media ${theme.media.lteMedium} {
+      text-align: center;
+      margin-bottom: ${theme.spacings.medium};
+    }
+  `}
+`
+
 export const AboutInstructor = styled.div`
   ${({ theme }) => css`
     @media ${theme.media.lteMedium} {
