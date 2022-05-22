@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<SectionClass /> should match snapshot 1`] = `
-.c15 {
+.c16 {
   width: 100%;
   max-width: 190px;
   padding: calc(1.6rem - 0.4rem);
@@ -17,7 +17,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   transition: all ease-in-out 300ms;
 }
 
-.c15:hover {
+.c16:hover {
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
   transform: scale(1.01);
@@ -39,21 +39,21 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   justify-content: center;
 }
 
-.c5 {
+.c6 {
   font-size: 5.6rem;
   color: white;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
-.c11 {
+.c12 {
   font-size: 2.4rem;
   color: white;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
 }
 
-.c3 {
+.c4 {
   background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -76,6 +76,10 @@ exports[`<SectionClass /> should match snapshot 1`] = `
 }
 
 .c1 {
+  padding: 5.6rem 0;
+}
+
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -90,11 +94,11 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   margin-bottom: 6.4rem;
 }
 
-.c1 > .c2 {
+.c2 > .c3 {
   margin-bottom: calc(1.6rem - 0.8rem);
 }
 
-.c6 {
+.c7 {
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -115,15 +119,15 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   margin-bottom: 4.0rem;
 }
 
-.c7 > .c2 {
+.c8 > .c3 {
   font-size: calc(1.6rem - 0.1rem);
 }
 
-.c8 {
+.c9 {
   max-width: 64px;
 }
 
-.c9 {
+.c10 {
   position: relative;
   background: #0A0909;
   padding: 2.4rem 4.0rem;
@@ -132,7 +136,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   border-radius: 3px;
 }
 
-.c9::before {
+.c10::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -142,15 +146,15 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   background: linear-gradient(225.05deg,#FA5770 0%,rgba(232,55,82,0) 100%);
 }
 
-.c9:hover {
+.c10:hover {
   background: linear-gradient(225.05deg,rgba(250,87,112,0.1) 0%,rgba(232,55,82,0) 50%);
 }
 
-.c9 > .c4 {
+.c10 > .c5 {
   margin-bottom: 1.6rem;
 }
 
-.c10 {
+.c11 {
   display: inline-block;
   font-weight: bold;
   font-size: 1.6rem;
@@ -161,7 +165,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
 }
 
-.c12 {
+.c13 {
   width: 100%;
   max-width: 537px;
   line-height: 150%;
@@ -169,7 +173,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   color: #A3A3A3;
 }
 
-.c13 {
+.c14 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -180,31 +184,31 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   justify-content: center;
 }
 
-.c13 > .c14 {
+.c14 > .c15 {
   margin-top: 2.4rem;
 }
 
 @media (max-width:768px) {
-  .c5 {
+  .c6 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c11 {
+  .c12 {
     font-size: 4.0rem;
   }
 }
 
 @media (max-width:768px) {
-  .c1 > .c4 {
+  .c2 > .c5 {
     text-align: center;
     font-size: calc(3.2rem + 0.4rem);
   }
 }
 
 @media (max-width:768px) {
-  .c9 > .c4 {
+  .c10 > .c5 {
     font-size: 3rem;
   }
 }
@@ -213,38 +217,38 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   class="c0"
 >
   <div
-    class=""
+    class="c1"
   >
     <div
-      class="c1"
+      class="c2"
     >
       <span
-        class="c2 c3"
+        class="c3 c4"
         color="redGradient"
       >
         Aulas
       </span>
       <h1
-        class="c4 c5"
+        class="c5 c6"
         color="white"
       >
         O que você vai aprender
       </h1>
     </div>
     <div
-      class="c6"
+      class="c7"
     >
       <div
-        class="c7"
+        class="c8"
       >
         <h1
-          class="c4 c5"
+          class="c5 c6"
           color="white"
         >
           14/03
         </h1>
         <span
-          class="c2 c3"
+          class="c3 c4"
           color="redGradient"
         >
           Terça as - 20:30H
@@ -252,44 +256,44 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       </div>
       <img
         alt="Icon"
-        class="c8"
+        class="c9"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c9"
+        class="c10"
       >
         <span
-          class="c10"
+          class="c11"
         >
           Aula 01
         </span>
         <h4
-          class="c4 c11"
+          class="c5 c12"
           color="white"
         >
           Hackeando tudo
         </h4>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
       </div>
     </div>
     <div
-      class="c6"
+      class="c7"
     >
       <div
-        class="c7"
+        class="c8"
       >
         <h1
-          class="c4 c5"
+          class="c5 c6"
           color="white"
         >
           14/03
         </h1>
         <span
-          class="c2 c3"
+          class="c3 c4"
           color="redGradient"
         >
           Terça as - 20:30H
@@ -297,44 +301,44 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       </div>
       <img
         alt="Icon"
-        class="c8"
+        class="c9"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c9"
+        class="c10"
       >
         <span
-          class="c10"
+          class="c11"
         >
           Aula 01
         </span>
         <h4
-          class="c4 c11"
+          class="c5 c12"
           color="white"
         >
           Hackeando tudo
         </h4>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
       </div>
     </div>
     <div
-      class="c6"
+      class="c7"
     >
       <div
-        class="c7"
+        class="c8"
       >
         <h1
-          class="c4 c5"
+          class="c5 c6"
           color="white"
         >
           14/03
         </h1>
         <span
-          class="c2 c3"
+          class="c3 c4"
           color="redGradient"
         >
           Terça as - 20:30H
@@ -342,44 +346,44 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       </div>
       <img
         alt="Icon"
-        class="c8"
+        class="c9"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c9"
+        class="c10"
       >
         <span
-          class="c10"
+          class="c11"
         >
           Aula 01
         </span>
         <h4
-          class="c4 c11"
+          class="c5 c12"
           color="white"
         >
           Hackeando tudo
         </h4>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
       </div>
     </div>
     <div
-      class="c6"
+      class="c7"
     >
       <div
-        class="c7"
+        class="c8"
       >
         <h1
-          class="c4 c5"
+          class="c5 c6"
           color="white"
         >
           14/03
         </h1>
         <span
-          class="c2 c3"
+          class="c3 c4"
           color="redGradient"
         >
           Terça as - 20:30H
@@ -387,44 +391,44 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       </div>
       <img
         alt="Icon"
-        class="c8"
+        class="c9"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c9"
+        class="c10"
       >
         <span
-          class="c10"
+          class="c11"
         >
           Aula 01
         </span>
         <h4
-          class="c4 c11"
+          class="c5 c12"
           color="white"
         >
           Hackeando tudo
         </h4>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
       </div>
     </div>
     <div
-      class="c6"
+      class="c7"
     >
       <div
-        class="c7"
+        class="c8"
       >
         <h1
-          class="c4 c5"
+          class="c5 c6"
           color="white"
         >
           14/03
         </h1>
         <span
-          class="c2 c3"
+          class="c3 c4"
           color="redGradient"
         >
           Terça as - 20:30H
@@ -432,35 +436,35 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       </div>
       <img
         alt="Icon"
-        class="c8"
+        class="c9"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c9"
+        class="c10"
       >
         <span
-          class="c10"
+          class="c11"
         >
           Aula 01
         </span>
         <h4
-          class="c4 c11"
+          class="c5 c12"
           color="white"
         >
           Hackeando tudo
         </h4>
         <p
-          class="c12"
+          class="c13"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
       </div>
     </div>
     <div
-      class="c13"
+      class="c14"
     >
       <button
-        class="c14 c15"
+        class="c15 c16"
       >
         Cadastre-se agora
       </button>
