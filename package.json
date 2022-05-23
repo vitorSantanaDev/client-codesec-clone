@@ -1,6 +1,6 @@
 {
-  "name": "react-avancado-boilerplate",
-  "repository": "git@github.com:oaraujocesar/nextjs-boilerplate.git",
+  "name": "codesec-clone",
+  "repository": "https://github.com/vitorSantanaDev/client-codesec-clone.git",
   "version": "1.0.0",
   "main": "index.js",
   "private": false,
@@ -26,11 +26,13 @@
   },
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.34.0",
+    "@styled-icons/feather": "^10.34.0",
     "next": "12.0.9",
     "next-pwa": "^5.4.4",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "styled-components": "^5.3.3"
+    "styled-components": "^5.3.3",
+    "swiper": "^8.1.5"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.4.17",
