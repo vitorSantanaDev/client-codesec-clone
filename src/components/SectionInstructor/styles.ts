@@ -57,7 +57,7 @@ export const InstructorPhoto = styled.div<PhotoContainerProps>`
     height: 120px;
     border-radius: 50%;
     border: 2px solid
-      ${urlImage === '/images//images/icon-autor.svg'
+      ${urlImage !== '/images/icon-autor.svg'
         ? `${theme.colors.redPrimary}`
         : null};
 
