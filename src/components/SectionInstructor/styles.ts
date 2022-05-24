@@ -6,7 +6,7 @@ type PhotoContainerProps = {
   urlImage: string
 }
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   ${({ theme }) => css`
     width: 100%;
     padding: ${theme.spacings.xhuge} 0;

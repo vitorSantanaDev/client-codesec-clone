@@ -9,11 +9,11 @@ exports[`<SectionBackground /> should render the section with background and hea
   background-image: url(/images/bg-hero.png);
 }
 
-<div
+<section
   class="c0"
 >
   <h1>
     React App
   </h1>
-</div>
+</section>
 `;

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { Wrapper as Subtitle } from 'components/Subtitle/styles'
 import { Wrapper as Heading } from 'components/Heading/styles'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   ${({ theme }) => css`
     display: grid;
     align-items: center;

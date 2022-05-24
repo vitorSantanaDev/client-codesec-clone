@@ -118,7 +118,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
 <div
   class="c0"
 >
-  <div
+  <section
     class="c1"
   >
     <div
@@ -199,6 +199,6 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
         src="/images/about-ilustration.svg"
       />
     </div>
-  </div>
+  </section>
 </div>
 `;

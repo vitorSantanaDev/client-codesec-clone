@@ -203,7 +203,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
 <div
   class="c0"
 >
-  <div
+  <section
     class="c1"
   >
     <div
@@ -295,6 +295,6 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
         </p>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 `;

@@ -3,7 +3,7 @@ import { Wrapper as Subtitle } from 'components/Subtitle/styles'
 import { Wrapper as Heading } from 'components/Heading/styles'
 import { Wrapper as Button } from 'components/Button/styles'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   ${({ theme }) => css`
     padding: ${theme.spacings.huge} 0;
   `}

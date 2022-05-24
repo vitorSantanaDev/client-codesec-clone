@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { Wrapper as Heading } from 'components/Heading/styles'
 import { Wrapper as Subtitle } from 'components/Subtitle/styles'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   ${({ theme }) => css`
     width: 100%;
     padding: ${theme.spacings.xhuge} 0;

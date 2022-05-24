@@ -129,7 +129,7 @@ exports[`<SectionParticipate /> should match snapshot 1`] = `
 <div
   class="c0"
 >
-  <div
+  <section
     class="c1"
   >
     <div
@@ -167,6 +167,6 @@ exports[`<SectionParticipate /> should match snapshot 1`] = `
         src="/images/ilustration-participe.svg"
       />
     </div>
-  </div>
+  </section>
 </div>
 `;

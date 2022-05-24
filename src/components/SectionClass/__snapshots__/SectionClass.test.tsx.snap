@@ -216,7 +216,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
 <div
   class="c0"
 >
-  <div
+  <section
     class="c1"
   >
     <div
@@ -469,6 +469,6 @@ exports[`<SectionClass /> should match snapshot 1`] = `
         Cadastre-se agora
       </button>
     </div>
-  </div>
+  </section>
 </div>
 `;

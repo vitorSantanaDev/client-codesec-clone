@@ -4,7 +4,7 @@ type WrapperProps = {
   bgPath: string
 }
 
-export const Wrapper = styled.div<WrapperProps>`
+export const Wrapper = styled.section<WrapperProps>`
   ${({ bgPath }) => css`
     width: 100%;
 

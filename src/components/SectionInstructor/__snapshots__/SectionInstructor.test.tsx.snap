@@ -198,7 +198,7 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
 <div
   class="c0"
 >
-  <div
+  <section
     class="c1"
   >
     <span
@@ -258,6 +258,6 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
         </a>
       </div>
     </div>
-  </div>
+  </section>
 </div>
 `;

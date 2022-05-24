@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 import { Wrapper as CompositionElement } from 'components/CompositionElement/styles'
 import { Wrapper as Heading } from 'components/Heading/styles'
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   ${({ theme }) => css`
     padding: calc(${theme.spacings.xxhuge} + 6rem)
       calc(${theme.spacings.medium} - 1.4rem);
