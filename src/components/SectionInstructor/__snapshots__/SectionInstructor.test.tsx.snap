@@ -94,7 +94,7 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url('photo instructor');
+  background-image: url('/images/icon-autor.svg');
   margin-bottom: 2.4rem;
 }
 
