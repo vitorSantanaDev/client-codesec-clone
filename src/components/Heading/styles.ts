@@ -2,7 +2,7 @@ import styled, { css, DefaultTheme } from 'styled-components'
 import { theme } from 'styles/theme/theme'
 
 type HeadingProps = {
-  as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5'
+  as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
   size:
     | 'small'
     | 'medium'
