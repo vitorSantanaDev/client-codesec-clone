@@ -7,6 +7,7 @@ import SectionHowItWorks from 'components/SectionHowItWorks'
 import SectionInstructor from 'components/SectionInstructor'
 import SectionParticipate from 'components/SectionParticipate'
 import SectionTestimonials from 'components/SectionTestimonials'
+import SectionFaq from 'components/SectionFaq'
 import Footer from 'components/Footer'
 
 import { mockHeaderProps } from 'components/Header/mockData'
@@ -19,6 +20,7 @@ import { mockDataSectionInstructor } from 'components/SectionInstructor/mockData
 import { mockDataSectionTestimonials } from 'components/SectionTestimonials/mockData'
 import { mockDataSection } from 'components/SectionParticipate/mockData'
 import { mockDataFooterProps } from 'components/Footer/mockData'
+import { mockDataSectionFaq } from 'components/SectionFaq/mockData'
 
 const Home = () => {
   return (
@@ -32,6 +34,7 @@ const Home = () => {
       <SectionInstructor {...mockDataSectionInstructor} />
       <SectionTestimonials {...mockDataSectionTestimonials} />
       <SectionParticipate {...mockDataSection} />
+      <SectionFaq {...mockDataSectionFaq} />
       <Footer {...mockDataFooterProps} />
     </>
   )
