@@ -14,7 +14,7 @@ const SectionIcons = ({ icons }: ISectionInconsProps) => (
       {icons.map((icon, index) => {
         const key = `${index}-${Math.random()}`
         return (
-          <S.Icon data-aos="fade-down-right" key={key}>
+          <S.Icon data-aos="fade-up" key={key}>
             <img src={icon.srcImage} alt={icon.text} />
             <S.Text>{icon.text}</S.Text>
           </S.Icon>

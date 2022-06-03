@@ -28,7 +28,7 @@ const SectionParticipate = ({
         <S.Description>{description}</S.Description>
         <Button size="medium">Quero me cadastrar</Button>
       </S.ContentWrapperLeft>
-      <S.ContentWrapperRight data-aos="fade-down-left">
+      <S.ContentWrapperRight data-aos="fade-up-left">
         <S.Illustration
           src={illustration.urlImage}
           alt={illustration.altText}

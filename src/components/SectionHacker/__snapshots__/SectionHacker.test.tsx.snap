@@ -234,7 +234,7 @@ exports[`<SectionHacker /> should match snapshot 1`] = `
     />
     <div
       class=""
-      data-aos="fade-down"
+      data-aos="fade-up"
     >
       <form
         class="c3"

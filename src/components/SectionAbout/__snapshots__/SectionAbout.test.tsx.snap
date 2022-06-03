@@ -193,7 +193,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
       <img
         alt="Illustration about"
         class="c10"
-        data-aos="fade-down-left"
+        data-aos="fade-up-left"
         src="/images/about-ilustration.svg"
       />
     </div>

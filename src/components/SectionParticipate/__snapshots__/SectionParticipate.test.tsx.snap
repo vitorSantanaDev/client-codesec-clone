@@ -161,7 +161,7 @@ exports[`<SectionParticipate /> should match snapshot 1`] = `
     </div>
     <div
       class=""
-      data-aos="fade-down-left"
+      data-aos="fade-up-left"
     >
       <img
         alt="Illustration"

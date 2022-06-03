@@ -13,7 +13,7 @@ const SectionHacker = ({ illustration }: SectionHackerProps) => (
   <Container>
     <S.Wrapper>
       <S.Illustration src={illustration.urlImage} alt={illustration.altText} />
-      <S.FormWrapper data-aos="fade-down">
+      <S.FormWrapper data-aos="fade-up">
         <Form
           url="/"
           title="Entre agora mesmo para lista de espera"

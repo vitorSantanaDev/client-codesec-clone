@@ -30,13 +30,13 @@ const SectionHowItWorks = ({
           <Subtitle>{subtitle}</Subtitle>
           <Heading>{title}</Heading>
         </S.ContentWrapper>
-        <S.Description data-aos="fade-down">{description}</S.Description>
+        <S.Description data-aos="fade-left">{description}</S.Description>
       </S.TitleAndDescriptionWrapper>
       <S.BoxsWrapper>
         {steps.map((step, index) => {
           const key = `${index}-${step.title}`
           return (
-            <S.AnimateWrapper data-aos="fade-left" key={key}>
+            <S.AnimateWrapper data-aos="fade-up" key={key}>
               <S.BoxStep>
                 <S.Icon src={step.icon.url} alt={step.icon.altText} />
                 <Heading as="h5" size="medium">

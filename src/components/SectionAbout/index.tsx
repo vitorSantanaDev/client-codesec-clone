@@ -47,7 +47,7 @@ const SectionAbout = ({
       </S.ContentWrapperLeft>
       <S.ContentWrapperRight>
         <S.Ilustration
-          data-aos="fade-down-left"
+          data-aos="fade-up-left"
           src={ilustrationSrcImage}
           alt={ilustrationAltText}
         />

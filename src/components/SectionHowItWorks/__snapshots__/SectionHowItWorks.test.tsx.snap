@@ -228,7 +228,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <p
         class="c8"
-        data-aos="fade-down"
+        data-aos="fade-left"
       >
         Lorem ipsum dolor sit amet pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
       </p>
@@ -238,7 +238,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
     >
       <div
         class=""
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div
           class="c10"
@@ -263,7 +263,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <div
         class=""
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div
           class="c10"
@@ -288,7 +288,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <div
         class=""
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         <div
           class="c10"
