@@ -24,4 +24,8 @@ describe('<SectionFaq />', () => {
     expect(questions).toHaveLength(6)
     expect(buttons).toHaveLength(6)
   })
+  it('should match snapshot', () => {
+    const { container } = renderTheme(<SectionFaq {...mockDataSectionFaq} />)
+    expect(container.firstChild).toMatchSnapshot()
+  })
 })

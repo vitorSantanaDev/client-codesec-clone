@@ -19,6 +19,8 @@ export const Wrapper = styled.form`
     }
 
     ${Heading} {
+      text-align: center;
+      margin-bottom: ${theme.spacings.medium};
       margin-top: calc(${theme.spacings.small} - 0.8rem);
 
       @media screen and (max-width: 560px) {

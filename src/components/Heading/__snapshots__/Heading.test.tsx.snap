@@ -1,8 +1,118 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<Heading /> should render an "h2" with the "huge" font size 1`] = `
+.c0 {
+  font-size: 5.6rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  Title Example
+</h2>
+`;
+
 exports[`<Heading /> should render an "h2" with the "large" font size 1`] = `
 .c0 {
   font-size: 3.2rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  Title Example
+</h2>
+`;
+
+exports[`<Heading /> should render an "h2" with the "xhuge" font size 1`] = `
+.c0 {
+  font-size: 6.4rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  Title Example
+</h2>
+`;
+
+exports[`<Heading /> should render an "h2" with the "xlarge" font size 1`] = `
+.c0 {
+  font-size: 4.0rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  Title Example
+</h2>
+`;
+
+exports[`<Heading /> should render an "h2" with the "xxhuge" font size 1`] = `
+.c0 {
+  font-size: 8rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h2
+  class="c0"
+  color="white"
+>
+  Title Example
+</h2>
+`;
+
+exports[`<Heading /> should render an "h2" with the "xxlarge" font size 1`] = `
+.c0 {
+  font-size: 4.8rem;
   color: white;
   font-weight: 600;
   font-family: 'Raleway',sans-serif;
@@ -64,6 +174,28 @@ exports[`<Heading /> should render an "h4" with the "small" font size 1`] = `
 >
   Title Example
 </h4>
+`;
+
+exports[`<Heading /> should render an "h5" with the "large" font size 1`] = `
+.c0 {
+  font-size: 3.2rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+@media (max-width:768px) {
+  .c0 {
+    font-size: 4.0rem;
+  }
+}
+
+<h5
+  class="c0"
+  color="white"
+>
+  Title Example
+</h5>
 `;
 
 exports[`<Heading /> should render heading with "xlarge" font size when screen size is max 768px 1`] = `

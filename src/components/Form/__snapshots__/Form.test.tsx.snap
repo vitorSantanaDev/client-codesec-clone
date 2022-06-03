@@ -465,6 +465,8 @@ exports[`<Form /> should render form with secondary styles 1`] = `
 }
 
 .c0 .c4 {
+  text-align: center;
+  margin-bottom: 2.4rem;
   margin-top: calc(1.6rem - 0.8rem);
 }
 

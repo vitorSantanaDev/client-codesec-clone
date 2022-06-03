@@ -1,5 +1,4 @@
 import styled, { css, DefaultTheme } from 'styled-components'
-import { theme } from 'styles/theme/theme'
 
 type HeadingProps = {
   as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
@@ -16,28 +15,28 @@ type HeadingProps = {
 }
 
 const titleSize = {
-  small: () => css`
+  small: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.small};
   `,
-  medium: () => css`
+  medium: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.medium};
   `,
-  large: () => css`
+  large: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.large};
   `,
-  xlarge: () => css`
+  xlarge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.xlarge};
   `,
-  xxlarge: () => css`
+  xxlarge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.xxlarge};
   `,
-  huge: () => css`
+  huge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.huge};
   `,
-  xhuge: () => css`
+  xhuge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.xhuge};
   `,
-  xxhuge: () => css`
+  xxhuge: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.xxhuge};
   `
 }
@@ -50,7 +49,7 @@ const mediaFont = (theme: DefaultTheme) => css`
 
 export const Wrapper = styled.h1<HeadingProps>`
   ${({ theme, size, color }) => css`
-    ${titleSize[size]}
+    ${titleSize[size](theme)}
     color: ${color};
     font-weight: 600;
     font-family: ${theme.font.family.default};
