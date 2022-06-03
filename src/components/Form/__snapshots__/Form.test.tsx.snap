@@ -513,7 +513,7 @@ exports[`<Form /> should render form with secondary styles 1`] = `
 
 @media screen and (max-width:560px) {
   .c0 .c4 {
-    font-size: 2.4rem;
+    font-size: calc(2.4rem - 0.6rem);
   }
 }
 

@@ -199,7 +199,7 @@ exports[`<SectionHacker /> should match snapshot 1`] = `
 
 @media screen and (max-width:560px) {
   .c3 .c7 {
-    font-size: 2.4rem;
+    font-size: calc(2.4rem - 0.6rem);
   }
 }
 

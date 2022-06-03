@@ -24,7 +24,7 @@ export const Wrapper = styled.form`
       margin-top: calc(${theme.spacings.small} - 0.8rem);
 
       @media screen and (max-width: 560px) {
-        font-size: ${theme.font.sizes.medium};
+        font-size: calc(${theme.font.sizes.medium} - 0.6rem);
       }
     }
 

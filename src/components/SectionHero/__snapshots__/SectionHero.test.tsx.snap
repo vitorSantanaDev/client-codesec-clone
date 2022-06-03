@@ -306,7 +306,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 
 @media screen and (max-width:560px) {
   .c14 .c6 {
-    font-size: 2.4rem;
+    font-size: calc(2.4rem - 0.6rem);
   }
 }
 
