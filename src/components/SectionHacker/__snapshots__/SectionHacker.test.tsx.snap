@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionHacker /> should match snapshot 1`] = `
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c13 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c19 {
+  width: 100%;
+  max-width: 330px;
+  padding: calc(1.6rem - 0.4rem);
+  font-weight: 600;
+  text-transform: unset;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  -webkit-transition: all ease-in-out 300ms;
+  transition: all ease-in-out 300ms;
+}
+
+.c19:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: -10px 15px 40px -15px #FA5770;
+}
+
+.c8 {
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c11 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c17 {
+  width: 100%;
+  display: block;
+  padding: calc(1.6rem - 0.4rem) 0 calc(1.6rem - 0.4rem) 4.0rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 1.6rem;
+  color: #A3A3A3;
+  background-color: #1C1B1B;
+}
+
+.c17:focus {
+  background-color: #121111;
+}
+
+.c14 > svg {
+  position: absolute;
+}
+
+.c12 > svg {
+  position: absolute;
+  top: 19px;
+  left: 10px;
+}
+
+.c15 {
+  display: inline-block;
+  margin-bottom: calc(1.6rem - 1rem);
+  font-weight: 400;
+  font-size: calc(1.6rem - 0.2rem);
+  color: #EB3D3D;
+}
+
+.c4 {
+  cursor: pointer;
+}
+
+.c6 {
+  background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  -webkit-letter-spacing: 15%;
+  -moz-letter-spacing: 15%;
+  -ms-letter-spacing: 15%;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  font-size: calc(1.6rem - 0.2rem);
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c3 .c5 {
+  margin-top: calc(1.6rem - 0.2rem);
+}
+
+.c3 .c7 {
+  text-align: center;
+  margin-bottom: 2.4rem;
+  margin-top: calc(1.6rem - 0.8rem);
+}
+
+.c9 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c9 .c18 {
+  max-width: 350px;
+  margin-top: calc(1.6rem - 0.4rem);
+  margin-bottom: 1.6rem;
+}
+
+.c10 {
+  margin-bottom: 1.6rem;
+}
+
+.c10 .c16 {
+  width: 350px;
+}
+
+.c1 {
+  padding: 5.6rem 0;
+}
+
+.c2 {
+  width: 100%;
+}
+
+@media (max-width:768px) {
+  .c8 {
+    font-size: 4.0rem;
+  }
+}
+
+@media screen and (max-width:560px) {
+  .c3 .c5 {
+    font-size: calc(1.6rem - 0.4rem);
+  }
+}
+
+@media screen and (max-width:560px) {
+  .c3 .c7 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c3 .logo {
+    width: 85px;
+  }
+}
+
+@media (max-width:420px) {
+  .c9 .c18 {
+    width: 325px;
+  }
+}
+
+@media (max-width:420px) {
+  .c10 .c16 {
+    width: 325px;
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+  >
+    <img
+      alt="Illustation"
+      class="c2"
+      src="/images/section-hacker-illustration.svg"
+    />
+    <form
+      class="c3"
+    >
+      <div
+        class=""
+      >
+        <img
+          alt="Logo codesec"
+          class="c4 logo"
+          src="/images/logo-2-codesec.svg"
+        />
+      </div>
+      <span
+        class="c5 c6"
+        color="redGradient"
+      >
+        Cadastre-se
+      </span>
+      <h4
+        class="c7 c8"
+        color="white"
+      >
+        Entre agora mesmo para lista de espera
+      </h4>
+      <div
+        class="c9"
+      >
+        <div
+          class="c10"
+        >
+          <div
+            class="c11"
+          >
+            <span
+              class="c12"
+            >
+              <svg
+                aria-hidden="true"
+                class="c13"
+                color="#E83752"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  data-name="Layer 2"
+                >
+                  <g
+                    data-name="person"
+                  >
+                    <path
+                      d="M12 11a4 4 0 10-4-4 4 4 0 004 4zm0-6a2 2 0 11-2 2 2 2 0 012-2zM12 13a7 7 0 00-7 7 1 1 0 002 0 5 5 0 0110 0 1 1 0 002 0 7 7 0 00-7-7z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </span>
+            <div
+              class=""
+            >
+              <span
+                class="c14"
+              />
+              <span
+                class="c15"
+              />
+            </div>
+          </div>
+          <input
+            class="c16 c17"
+            id="name"
+            name="name"
+            placeholder="Seu nome"
+            type="text"
+            value=""
+          />
+          <div
+            class="c11"
+          >
+            <span
+              class="c12"
+            >
+              <svg
+                aria-hidden="true"
+                class="c13"
+                color="#E83752"
+                fill="currentColor"
+                focusable="false"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  data-name="Layer 2"
+                >
+                  <path
+                    d="M13 2a10 10 0 00-5 19.1 10.15 10.15 0 004 .9 10 10 0 006.08-2.06 1 1 0 00.19-1.4 1 1 0 00-1.41-.19A8 8 0 1112.77 4 8.17 8.17 0 0120 12.22v.68a1.71 1.71 0 01-1.78 1.7 1.82 1.82 0 01-1.62-1.88V8.4a1 1 0 00-1-1 1 1 0 00-1 .87 5 5 0 00-3.44-1.36A5.09 5.09 0 1015.31 15a3.6 3.6 0 005.55.61A3.67 3.67 0 0022 12.9v-.68A10.2 10.2 0 0013 2zm-1.82 13.09A3.09 3.09 0 1114.27 12a3.1 3.1 0 01-3.09 3.09z"
+                    data-name="at"
+                  />
+                </g>
+              </svg>
+            </span>
+            <div
+              class=""
+            >
+              <span
+                class="c14"
+              />
+              <span
+                class="c15"
+              />
+            </div>
+          </div>
+          <input
+            class="c16 c17"
+            id="email"
+            name="email"
+            placeholder="Seu Email"
+            type="email"
+            value=""
+          />
+        </div>
+        <button
+          class="c18 c19"
+        >
+          Quero me cadastrar
+        </button>
+      </div>
+    </form>
+  </section>
+</div>
+`;

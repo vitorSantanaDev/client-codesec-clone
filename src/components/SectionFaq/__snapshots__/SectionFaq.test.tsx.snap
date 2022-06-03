@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SectionFaq /> should match snapshot 1`] = `
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c6 {
+  font-size: 5.6rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c9 {
+  font-size: 1.6rem;
+  color: white;
+  font-weight: 600;
+  font-family: 'Raleway',sans-serif;
+}
+
+.c4 {
+  background-image: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 700;
+  -webkit-letter-spacing: 15%;
+  -moz-letter-spacing: 15%;
+  -ms-letter-spacing: 15%;
+  letter-spacing: 15%;
+  text-transform: uppercase;
+  font-size: calc(1.6rem - 0.2rem);
+}
+
+.c1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 5.6rem 0;
+}
+
+.c2 > .c3 {
+  margin-bottom: calc(1.6rem - 0.8rem);
+}
+
+.c2 > .c5 {
+  max-width: 384px;
+}
+
+.c7 {
+  width: 100%;
+  max-width: 696px;
+  overflow: hidden;
+  max-height: 60px;
+  margin-bottom: 1.6rem;
+  padding: 1.6rem 2.4rem;
+  -webkit-transition: -webkit-transform 700ms ease-in-out;
+  -webkit-transition: transform 700ms ease-in-out;
+  transition: transform 700ms ease-in-out;
+  -webkit-animation: hQFOSm 700ms ease-in-out forwards;
+  animation: hQFOSm 700ms ease-in-out forwards;
+  border-radius: 6px;
+  background-color: #121111;
+}
+
+.c7:hover {
+  -webkit-transform: translate3d(5px,0px,0px);
+  -ms-transform: translate3d(5px,0px,0px);
+  transform: translate3d(5px,0px,0px);
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: baseline;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c8 > .c5 {
+  margin-bottom: calc(1.6rem + 0.4rem);
+  font-size: calc(1.6rem + 0.2rem);
+}
+
+.c10 {
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #1C1B1B;
+}
+
+.c12 {
+  line-height: 150%;
+  opacity: 0;
+  -webkit-transition: all ease 600ms;
+  transition: all ease 600ms;
+  color: #A3A3A3;
+  font-size: 1.6rem;
+}
+
+@media (max-width:768px) {
+  .c6 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c9 {
+    font-size: 4.0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c1 {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 > .c5 {
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c8 > .c5 {
+    font-size: calc(1.6rem - 0.2rem);
+  }
+}
+
+<div
+  class="c0"
+>
+  <section
+    class="c1"
+  >
+    <div
+      class="c2"
+    >
+      <span
+        class="c3 c4"
+        color="redGradient"
+      >
+        FAQ
+      </span>
+      <h1
+        class="c5 c6"
+        color="white"
+      >
+        Perguntas frequentes
+      </h1>
+    </div>
+    <div
+      class=""
+    >
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+      <div
+        class="c7"
+      >
+        <div
+          class="c8"
+        >
+          <h6
+            class="c5 c9"
+            color="white"
+          >
+            Question expample, uestion example?
+          </h6>
+          <button
+            class="c10"
+          >
+            <svg
+              aria-hidden="true"
+              class="c11"
+              color="#FFFFFF"
+              fill="none"
+              focusable="false"
+              height="20"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <polyline
+                points="6 9 12 15 18 9"
+              />
+            </svg>
+          </button>
+        </div>
+        <p
+          class="c12"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nunc convallis.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+`;
