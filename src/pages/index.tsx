@@ -1,3 +1,7 @@
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 import Header from 'components/Header'
 import SectionAbout from 'components/SectionAbout'
 import SectionHero from 'components/SectionHero'
@@ -8,6 +12,7 @@ import SectionInstructor from 'components/SectionInstructor'
 import SectionParticipate from 'components/SectionParticipate'
 import SectionTestimonials from 'components/SectionTestimonials'
 import SectionFaq from 'components/SectionFaq'
+import SectionHacker from 'components/SectionHacker'
 import Footer from 'components/Footer'
 
 import { mockHeaderProps } from 'components/Header/mockData'
@@ -19,10 +24,14 @@ import { mockDataSectionProps } from 'components/SectionHowItWorks/mockData'
 import { mockDataSectionInstructor } from 'components/SectionInstructor/mockData'
 import { mockDataSectionTestimonials } from 'components/SectionTestimonials/mockData'
 import { mockDataSection } from 'components/SectionParticipate/mockData'
-import { mockDataFooterProps } from 'components/Footer/mockData'
 import { mockDataSectionFaq } from 'components/SectionFaq/mockData'
+import { mockDataSectionHacker } from 'components/SectionHacker/mockData'
+import { mockDataFooterProps } from 'components/Footer/mockData'
 
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1500 })
+  }, [])
   return (
     <>
       <Header {...mockHeaderProps} />
@@ -35,6 +44,7 @@ const Home = () => {
       <SectionTestimonials {...mockDataSectionTestimonials} />
       <SectionParticipate {...mockDataSection} />
       <SectionFaq {...mockDataSectionFaq} />
+      <SectionHacker illustration={mockDataSectionHacker} />
       <Footer {...mockDataFooterProps} />
     </>
   )

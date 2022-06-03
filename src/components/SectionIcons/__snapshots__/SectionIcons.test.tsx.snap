@@ -51,6 +51,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
   >
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -64,6 +65,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -77,6 +79,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -90,6 +93,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -103,6 +107,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -116,6 +121,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"
@@ -129,6 +135,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
     <div
       class="c2"
+      data-aos="fade-down-right"
     >
       <img
         alt="Exclusividade no mercado"

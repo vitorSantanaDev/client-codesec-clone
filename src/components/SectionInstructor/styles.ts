@@ -69,6 +69,8 @@ export const InstructorPhoto = styled.div<PhotoContainerProps>`
   `}
 `
 
+export const AnimateWrapper = styled.div``
+
 export const InstructorNameAndProfessional = styled.div`
   ${({ theme }) => css`
     ${Heading} {

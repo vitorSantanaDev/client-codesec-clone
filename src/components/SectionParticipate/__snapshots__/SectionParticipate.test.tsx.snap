@@ -134,6 +134,7 @@ exports[`<SectionParticipate /> should match snapshot 1`] = `
   >
     <div
       class="c2"
+      data-aos="fade-up-right"
     >
       <span
         class="c3 c4"
@@ -160,6 +161,7 @@ exports[`<SectionParticipate /> should match snapshot 1`] = `
     </div>
     <div
       class=""
+      data-aos="fade-down-left"
     >
       <img
         alt="Illustration"

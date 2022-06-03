@@ -29,6 +29,8 @@ export const HeadingAndSubtitle = styled.div`
   `}
 `
 
+export const AnimateWrapper = styled.div``
+
 export const ContentWrapper = styled.div`
   ${({ theme }) => css`
     width: 100%;

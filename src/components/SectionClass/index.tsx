@@ -23,7 +23,7 @@ type SectionClassProps = {
 const SectionClass = ({ subtitle, title, classs }: SectionClassProps) => (
   <Container>
     <S.Wrapper>
-      <S.HeadingAndSubtitle>
+      <S.HeadingAndSubtitle data-aos="fade-down">
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
       </S.HeadingAndSubtitle>
@@ -31,22 +31,28 @@ const SectionClass = ({ subtitle, title, classs }: SectionClassProps) => (
         const key = `${index}-${item.classNumber}`
         return (
           <S.ContentWrapper key={key}>
-            <S.DateWrapper>
+            <S.DateWrapper data-aos="fade-right">
               <Heading>{item.dateClass}</Heading>
               <Subtitle>{item.hourAndDay}</Subtitle>
             </S.DateWrapper>
-            <S.Icon src={item.icon.url} alt={item.icon.altTextIcon} />
-            <S.BoxContent>
-              <S.ClassNumber>{item.classNumber}</S.ClassNumber>
-              <Heading size="medium" as="h4">
-                {item.titleClass}
-              </Heading>
-              <S.Description>{item.descriptionClass}</S.Description>
-            </S.BoxContent>
+            <S.Icon
+              data-aos="fade-down"
+              src={item.icon.url}
+              alt={item.icon.altTextIcon}
+            />
+            <S.AnimateWrapper data-aos="fade-right">
+              <S.BoxContent>
+                <S.ClassNumber>{item.classNumber}</S.ClassNumber>
+                <Heading size="medium" as="h4">
+                  {item.titleClass}
+                </Heading>
+                <S.Description>{item.descriptionClass}</S.Description>
+              </S.BoxContent>
+            </S.AnimateWrapper>
           </S.ContentWrapper>
         )
       })}
-      <S.ButtonWrapper>
+      <S.ButtonWrapper data-aos="fade-up">
         <Button size="small">Cadastre-se agora</Button>
       </S.ButtonWrapper>
     </S.Wrapper>

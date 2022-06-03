@@ -26,7 +26,7 @@ const SectionAbout = ({
 }: SectionAboutProps) => (
   <Container>
     <S.Wrapper>
-      <S.ContentWrapperLeft>
+      <S.ContentWrapperLeft data-aos="fade-up-right">
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
         <S.Description>{description}</S.Description>
@@ -35,7 +35,6 @@ const SectionAbout = ({
             const key = `${index}-${topic}`
             return (
               <S.Topic key={key}>
-                {' '}
                 <S.TopicIcon
                   src={topic.topicIconSrcImage}
                   alt={topic.alttextIcon}
@@ -47,7 +46,11 @@ const SectionAbout = ({
         </S.TopicsWrapper>
       </S.ContentWrapperLeft>
       <S.ContentWrapperRight>
-        <S.Ilustration src={ilustrationSrcImage} alt={ilustrationAltText} />
+        <S.Ilustration
+          data-aos="fade-down-left"
+          src={ilustrationSrcImage}
+          alt={ilustrationAltText}
+        />
       </S.ContentWrapperRight>
     </S.Wrapper>
   </Container>

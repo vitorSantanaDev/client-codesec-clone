@@ -27,14 +27,17 @@ const SectionInstructor = ({
 }: SectionIntructorProps) => (
   <Container>
     <S.Wrapper>
-      <Subtitle>{subtitle}</Subtitle>
-      <Heading>{title}</Heading>
+      <S.AnimateWrapper data-aos="fade-right">
+        <Subtitle>{subtitle}</Subtitle>
+        <Heading>{title}</Heading>
+      </S.AnimateWrapper>
       <S.InstructorInfoWrapper>
         <S.InstructorData>
           <S.InstructorPhoto
+            data-aos="fade-down"
             urlImage={instructor.photoUrl || '/images/icon-autor.svg'}
           />
-          <S.InstructorNameAndProfessional>
+          <S.InstructorNameAndProfessional data-aos="fade-up">
             <Heading as="h5">{instructor.name}</Heading>
             <S.InstructorProfessional>
               Software Engineer
@@ -42,12 +45,14 @@ const SectionInstructor = ({
           </S.InstructorNameAndProfessional>
         </S.InstructorData>
         <S.AboutInstructor>
-          <S.DescriptionInstructor>
+          <S.DescriptionInstructor data-aos="fade-left">
             {instructor.description}
           </S.DescriptionInstructor>
           <Link href={instructor.link.linkUrl}>
             <S.LinkMoreInfo>
-              <Subtitle>{instructor.link.linkText}</Subtitle>
+              <Subtitle data-aos="fade-right">
+                {instructor.link.linkText}
+              </Subtitle>
             </S.LinkMoreInfo>
           </Link>
         </S.AboutInstructor>

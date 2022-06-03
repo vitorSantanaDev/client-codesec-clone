@@ -13,14 +13,16 @@ const SectionHacker = ({ illustration }: SectionHackerProps) => (
   <Container>
     <S.Wrapper>
       <S.Illustration src={illustration.urlImage} alt={illustration.altText} />
-      <Form
-        url="/"
-        title="Entre agora mesmo para lista de espera"
-        srcImage="/images/logo-2-codesec.svg"
-        altText="Logo codesec"
-        subtitle="Cadastre-se"
-        handleSubmit={() => ({})}
-      />
+      <S.FormWrapper data-aos="fade-down">
+        <Form
+          url="/"
+          title="Entre agora mesmo para lista de espera"
+          srcImage="/images/logo-2-codesec.svg"
+          altText="Logo codesec"
+          subtitle="Cadastre-se"
+          handleSubmit={() => ({})}
+        />
+      </S.FormWrapper>
     </S.Wrapper>
   </Container>
 )

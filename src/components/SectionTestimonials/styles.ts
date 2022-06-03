@@ -20,21 +20,25 @@ export const Wrapper = styled.section`
 
 export const TitleAndSubtitleAndButtonWrapper = styled.div`
   ${({ theme }) => css`
+    @media ${theme.media.lteMedium} {
+      margin-bottom: ${theme.spacings.large};
+    }
+  `}
+`
+
+export const AnimateWrapper = styled.div`
+  ${({ theme }) => css`
     > ${Subtitle} {
       margin-bottom: calc(${theme.spacings.small} - 0.8rem);
     }
     > ${Heading} {
       max-width: 341px;
-      margin-bottom: ${theme.spacings.huge};
 
       @media ${theme.media.lteMedium} {
         font-size: ${theme.spacings.large};
       }
     }
-
-    @media ${theme.media.lteMedium} {
-      margin-bottom: ${theme.spacings.large};
-    }
+    margin-bottom: ${theme.spacings.huge};
   `}
 `
 

@@ -34,7 +34,7 @@ const SectionHero = ({
     <SectionBackground backgroundImagePath="/images/bg-hero.png">
       <Container>
         <S.Wrapper>
-          <S.ContentWrapper>
+          <S.ContentWrapper data-aos="fade-up" data-aos-duration="1500">
             <Subtitle icon={subtitleIcon} iconUrl={subtitleIconUrl}>
               {subtitle}
             </Subtitle>
@@ -48,8 +48,13 @@ const SectionHero = ({
               </S.LinkElement>
             </Link>
           </S.ContentWrapper>
-          <CompositionElement />
-          <S.FormWrapper>
+          <S.CompositionElementWrapper
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            <CompositionElement />
+          </S.CompositionElementWrapper>
+          <S.FormWrapper data-aos="fade-up" data-aos-duration="2500">
             <Form
               srcImage="/images/logo-2-codesec.svg"
               altText="Logo codesec"

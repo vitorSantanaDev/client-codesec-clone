@@ -32,6 +32,10 @@ export const Wrapper = styled.section`
   `}
 `
 
+export const CompositionElementWrapper = styled.div`
+  ${() => css``}
+`
+
 export const ContentWrapper = styled.div`
   ${({ theme }) => css`
     ${Heading} {

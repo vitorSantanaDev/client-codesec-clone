@@ -211,6 +211,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
     >
       <div
         class="c3"
+        data-aos="fade-up"
       >
         <span
           class="c4 c5"
@@ -227,6 +228,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <p
         class="c8"
+        data-aos="fade-down"
       >
         Lorem ipsum dolor sit amet pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
       </p>
@@ -235,64 +237,79 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       class="c9"
     >
       <div
-        class="c10"
+        class=""
+        data-aos="fade-left"
       >
-        <img
-          alt="Icon"
-          class="c11"
-          src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
-        />
-        <h5
-          class="c6 c12"
-          color="white"
+        <div
+          class="c10"
         >
-          Passo 1
-        </h5>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
-        </p>
+          <img
+            alt="Icon"
+            class="c11"
+            src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+          />
+          <h5
+            class="c6 c12"
+            color="white"
+          >
+            Passo 1
+          </h5>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
+          </p>
+        </div>
       </div>
       <div
-        class="c10"
+        class=""
+        data-aos="fade-left"
       >
-        <img
-          alt="Icon"
-          class="c11"
-          src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
-        />
-        <h5
-          class="c6 c12"
-          color="white"
+        <div
+          class="c10"
         >
-          Passo 1
-        </h5>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
-        </p>
+          <img
+            alt="Icon"
+            class="c11"
+            src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+          />
+          <h5
+            class="c6 c12"
+            color="white"
+          >
+            Passo 1
+          </h5>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
+          </p>
+        </div>
       </div>
       <div
-        class="c10"
+        class=""
+        data-aos="fade-left"
       >
-        <img
-          alt="Icon"
-          class="c11"
-          src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
-        />
-        <h5
-          class="c6 c12"
-          color="white"
+        <div
+          class="c10"
         >
-          Passo 1
-        </h5>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
-        </p>
+          <img
+            alt="Icon"
+            class="c11"
+            src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
+          />
+          <h5
+            class="c6 c12"
+            color="white"
+          >
+            Passo 1
+          </h5>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent leo urna, semper vel pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
+          </p>
+        </div>
       </div>
     </div>
   </section>

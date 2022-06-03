@@ -52,9 +52,11 @@ const SectionTestimonials = ({
     <Container>
       <S.Wrapper>
         <S.TitleAndSubtitleAndButtonWrapper>
-          <Subtitle>{subtitle}</Subtitle>
-          <Heading size="large">{title}</Heading>
-          <S.ButtonsSlideWrapper>
+          <S.AnimateWrapper data-aos="fade-right">
+            <Subtitle>{subtitle}</Subtitle>
+            <Heading size="large">{title}</Heading>
+          </S.AnimateWrapper>
+          <S.ButtonsSlideWrapper data-aos="fade-up-right">
             <S.ButtonSlide
               //@ts-ignore
               onClick={() => swiperRef.current?.swiper.slidePrev()}
@@ -69,7 +71,7 @@ const SectionTestimonials = ({
             </S.ButtonSlide>
           </S.ButtonsSlideWrapper>
         </S.TitleAndSubtitleAndButtonWrapper>
-        <S.SlideWrapper>
+        <S.SlideWrapper data-aos="fade-left">
           <Swiper {...slideConfigs}>
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial.id}>

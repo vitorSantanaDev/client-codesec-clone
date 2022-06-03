@@ -201,18 +201,23 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
   <section
     class="c1"
   >
-    <span
-      class="c2 c3"
-      color="redGradient"
+    <div
+      class=""
+      data-aos="fade-right"
     >
-      Subtitle
-    </span>
-    <h1
-      class="c4 c5"
-      color="white"
-    >
-      Title Example Instructor Section
-    </h1>
+      <span
+        class="c2 c3"
+        color="redGradient"
+      >
+        Subtitle
+      </span>
+      <h1
+        class="c4 c5"
+        color="white"
+      >
+        Title Example Instructor Section
+      </h1>
+    </div>
     <div
       class="c6"
     >
@@ -221,9 +226,11 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
       >
         <div
           class="c8"
+          data-aos="fade-down"
         />
         <div
           class="c9"
+          data-aos="fade-up"
         >
           <h5
             class="c4 c5"
@@ -243,6 +250,7 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
       >
         <p
           class="c12"
+          data-aos="fade-left"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>

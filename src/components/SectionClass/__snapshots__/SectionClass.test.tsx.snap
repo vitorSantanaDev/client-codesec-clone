@@ -221,6 +221,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
   >
     <div
       class="c2"
+      data-aos="fade-down"
     >
       <span
         class="c3 c4"
@@ -240,6 +241,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
     >
       <div
         class="c8"
+        data-aos="fade-right"
       >
         <h1
           class="c5 c6"
@@ -257,27 +259,33 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       <img
         alt="Icon"
         class="c9"
+        data-aos="fade-down"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c10"
+        class=""
+        data-aos="fade-right"
       >
-        <span
-          class="c11"
+        <div
+          class="c10"
         >
-          Aula 01
-        </span>
-        <h4
-          class="c5 c12"
-          color="white"
-        >
-          Hackeando tudo
-        </h4>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
-        </p>
+          <span
+            class="c11"
+          >
+            Aula 01
+          </span>
+          <h4
+            class="c5 c12"
+            color="white"
+          >
+            Hackeando tudo
+          </h4>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+          </p>
+        </div>
       </div>
     </div>
     <div
@@ -285,6 +293,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
     >
       <div
         class="c8"
+        data-aos="fade-right"
       >
         <h1
           class="c5 c6"
@@ -302,27 +311,33 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       <img
         alt="Icon"
         class="c9"
+        data-aos="fade-down"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c10"
+        class=""
+        data-aos="fade-right"
       >
-        <span
-          class="c11"
+        <div
+          class="c10"
         >
-          Aula 01
-        </span>
-        <h4
-          class="c5 c12"
-          color="white"
-        >
-          Hackeando tudo
-        </h4>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
-        </p>
+          <span
+            class="c11"
+          >
+            Aula 01
+          </span>
+          <h4
+            class="c5 c12"
+            color="white"
+          >
+            Hackeando tudo
+          </h4>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+          </p>
+        </div>
       </div>
     </div>
     <div
@@ -330,6 +345,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
     >
       <div
         class="c8"
+        data-aos="fade-right"
       >
         <h1
           class="c5 c6"
@@ -347,27 +363,33 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       <img
         alt="Icon"
         class="c9"
+        data-aos="fade-down"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c10"
+        class=""
+        data-aos="fade-right"
       >
-        <span
-          class="c11"
+        <div
+          class="c10"
         >
-          Aula 01
-        </span>
-        <h4
-          class="c5 c12"
-          color="white"
-        >
-          Hackeando tudo
-        </h4>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
-        </p>
+          <span
+            class="c11"
+          >
+            Aula 01
+          </span>
+          <h4
+            class="c5 c12"
+            color="white"
+          >
+            Hackeando tudo
+          </h4>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+          </p>
+        </div>
       </div>
     </div>
     <div
@@ -375,6 +397,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
     >
       <div
         class="c8"
+        data-aos="fade-right"
       >
         <h1
           class="c5 c6"
@@ -392,27 +415,33 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       <img
         alt="Icon"
         class="c9"
+        data-aos="fade-down"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c10"
+        class=""
+        data-aos="fade-right"
       >
-        <span
-          class="c11"
+        <div
+          class="c10"
         >
-          Aula 01
-        </span>
-        <h4
-          class="c5 c12"
-          color="white"
-        >
-          Hackeando tudo
-        </h4>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
-        </p>
+          <span
+            class="c11"
+          >
+            Aula 01
+          </span>
+          <h4
+            class="c5 c12"
+            color="white"
+          >
+            Hackeando tudo
+          </h4>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+          </p>
+        </div>
       </div>
     </div>
     <div
@@ -420,6 +449,7 @@ exports[`<SectionClass /> should match snapshot 1`] = `
     >
       <div
         class="c8"
+        data-aos="fade-right"
       >
         <h1
           class="c5 c6"
@@ -437,31 +467,38 @@ exports[`<SectionClass /> should match snapshot 1`] = `
       <img
         alt="Icon"
         class="c9"
+        data-aos="fade-down"
         src="https://res.cloudinary.com/vsantana/image/upload/v1650500029/icon_lock_6d7fca3f3c.svg"
       />
       <div
-        class="c10"
+        class=""
+        data-aos="fade-right"
       >
-        <span
-          class="c11"
+        <div
+          class="c10"
         >
-          Aula 01
-        </span>
-        <h4
-          class="c5 c12"
-          color="white"
-        >
-          Hackeando tudo
-        </h4>
-        <p
-          class="c13"
-        >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
-        </p>
+          <span
+            class="c11"
+          >
+            Aula 01
+          </span>
+          <h4
+            class="c5 c12"
+            color="white"
+          >
+            Hackeando tudo
+          </h4>
+          <p
+            class="c13"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
+          </p>
+        </div>
       </div>
     </div>
     <div
       class="c14"
+      data-aos="fade-up"
     >
       <button
         class="c15 c16"

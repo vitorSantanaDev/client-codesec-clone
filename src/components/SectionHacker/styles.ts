@@ -6,6 +6,8 @@ export const Wrapper = styled.section`
   `}
 `
 
+export const FormWrapper = styled.div``
+
 export const Illustration = styled.img`
   ${() => css`
     width: 100%;

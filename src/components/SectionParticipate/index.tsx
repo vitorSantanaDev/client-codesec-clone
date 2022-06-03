@@ -22,13 +22,13 @@ const SectionParticipate = ({
 }: SectionParticipateProps) => (
   <Container>
     <S.Wrapper>
-      <S.ContentWrapperLeft>
+      <S.ContentWrapperLeft data-aos="fade-up-right">
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
         <S.Description>{description}</S.Description>
         <Button size="medium">Quero me cadastrar</Button>
       </S.ContentWrapperLeft>
-      <S.ContentWrapperRight>
+      <S.ContentWrapperRight data-aos="fade-down-left">
         <S.Illustration
           src={illustration.urlImage}
           alt={illustration.altText}

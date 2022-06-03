@@ -26,23 +26,25 @@ const SectionHowItWorks = ({
   <Container>
     <S.Wrapper>
       <S.TitleAndDescriptionWrapper>
-        <S.ContentWrapper>
+        <S.ContentWrapper data-aos="fade-up">
           <Subtitle>{subtitle}</Subtitle>
           <Heading>{title}</Heading>
         </S.ContentWrapper>
-        <S.Description>{description}</S.Description>
+        <S.Description data-aos="fade-down">{description}</S.Description>
       </S.TitleAndDescriptionWrapper>
       <S.BoxsWrapper>
         {steps.map((step, index) => {
           const key = `${index}-${step.title}`
           return (
-            <S.BoxStep key={key}>
-              <S.Icon src={step.icon.url} alt={step.icon.altText} />
-              <Heading as="h5" size="medium">
-                {step.title}
-              </Heading>
-              <S.DescriptionBoxStep>{step.description}</S.DescriptionBoxStep>
-            </S.BoxStep>
+            <S.AnimateWrapper data-aos="fade-left" key={key}>
+              <S.BoxStep>
+                <S.Icon src={step.icon.url} alt={step.icon.altText} />
+                <Heading as="h5" size="medium">
+                  {step.title}
+                </Heading>
+                <S.DescriptionBoxStep>{step.description}</S.DescriptionBoxStep>
+              </S.BoxStep>
+            </S.AnimateWrapper>
           )
         })}
       </S.BoxsWrapper>
