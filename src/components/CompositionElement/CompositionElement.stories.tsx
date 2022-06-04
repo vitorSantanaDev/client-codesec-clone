@@ -7,4 +7,6 @@ export default {
   args: {}
 } as ComponentMeta<typeof CompositionElement>
 
-export const Default: ComponentStory<typeof CompositionElement> = () => <CompositionElement/>
+export const Default: ComponentStory<typeof CompositionElement> = () => (
+  <CompositionElement />
+)
