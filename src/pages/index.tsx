@@ -36,7 +36,7 @@ const Home = () => {
     <>
       <Header {...mockHeaderProps} />
       <SectionHero {...mockSectionHeroProps} />
-      <SectionIcons icons={mockIconsProps} />
+      <SectionIcons {...mockIconsProps} />
       <SectionAbout {...mockSectionAboutProps} />
       <SectionClass {...mockDataSectionClassProps} />
       <SectionHowItWorks {...mockDataSectionProps} />

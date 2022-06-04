@@ -161,9 +161,9 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
           <img
             alt="icone"
             class="c9"
-            src="/images/icon-key.svg"
+            src="/images/icon-eye.svg"
           />
-          text 2 example
+          text 1 example
         </span>
         <span
           class="c8"
@@ -171,9 +171,9 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
           <img
             alt="icone"
             class="c9"
-            src="/images/icon-circle.svg"
+            src="/images/icon-eye.svg"
           />
-          text 3 example
+          text 1 example
         </span>
         <span
           class="c8"
@@ -181,9 +181,9 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
           <img
             alt="icone"
             class="c9"
-            src="/images/icon-medal.svg"
+            src="/images/icon-eye.svg"
           />
-          text 4 example
+          text 1 example
         </span>
       </div>
     </div>
@@ -199,4 +199,4 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
     </div>
   </section>
 </div>
-`;
+`

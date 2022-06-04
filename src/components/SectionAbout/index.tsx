@@ -4,16 +4,22 @@ import Subtitle from 'components/Subtitle'
 import * as S from './styles'
 
 type SectionAboutProps = {
+  _id?: string
   subtitle: string
   title: string
   description: string
   topics: {
-    text: string
-    alttextIcon: string
-    topicIconSrcImage: string
+    _id: string
+    textInfo: string
+    icon: {
+      urlImage: string
+      altText: string
+    }
   }[]
-  ilustrationSrcImage: string
-  ilustrationAltText: string
+  illustration: {
+    urlImage: string
+    altText: string
+  }
 }
 
 const SectionAbout = ({
@@ -21,8 +27,7 @@ const SectionAbout = ({
   title,
   description,
   topics,
-  ilustrationSrcImage,
-  ilustrationAltText
+  illustration
 }: SectionAboutProps) => (
   <Container>
     <S.Wrapper>
@@ -31,15 +36,14 @@ const SectionAbout = ({
         <Heading>{title}</Heading>
         <S.Description>{description}</S.Description>
         <S.TopicsWrapper>
-          {topics.map((topic, index) => {
-            const key = `${index}-${topic}`
+          {topics.map((topic) => {
             return (
-              <S.Topic key={key}>
+              <S.Topic key={topic._id}>
                 <S.TopicIcon
-                  src={topic.topicIconSrcImage}
-                  alt={topic.alttextIcon}
+                  src={topic.icon.urlImage}
+                  alt={topic.icon.altText}
                 />
-                {topic.text}
+                {topic.textInfo}
               </S.Topic>
             )
           })}
@@ -48,8 +52,8 @@ const SectionAbout = ({
       <S.ContentWrapperRight>
         <S.Ilustration
           data-aos="fade-up-left"
-          src={ilustrationSrcImage}
-          alt={ilustrationAltText}
+          src={illustration.urlImage}
+          alt={illustration.altText}
         />
       </S.ContentWrapperRight>
     </S.Wrapper>
