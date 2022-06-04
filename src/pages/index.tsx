@@ -2,18 +2,20 @@ import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import Header from 'components/Header'
-import SectionAbout from 'components/SectionAbout'
-import SectionHero from 'components/SectionHero'
-import SectionIcons from 'components/SectionIcons'
-import SectionClass from 'components/SectionClass'
-import SectionHowItWorks from 'components/SectionHowItWorks'
-import SectionInstructor from 'components/SectionInstructor'
-import SectionParticipate from 'components/SectionParticipate'
-import SectionTestimonials from 'components/SectionTestimonials'
-import SectionFaq from 'components/SectionFaq'
-import SectionHacker from 'components/SectionHacker'
-import Footer from 'components/Footer'
+import {
+  Header,
+  SectionHero,
+  SectionIcons,
+  SectionAbout,
+  SectionClass,
+  SectionHowItWorks,
+  SectionInstructor,
+  SectionTestimonials,
+  SectionParticipate,
+  SectionFaq,
+  SectionHacker,
+  Footer
+} from 'components'
 
 import { mockHeaderProps } from 'components/Header/mockData'
 import { mockSectionHeroProps } from 'components/SectionHero/mockData'
