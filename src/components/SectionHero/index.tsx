@@ -1,23 +1,24 @@
 import React from 'react'
 import Link from 'next/link'
 
+import SectionBackground from 'components/SectionBackground'
 import CompositionElement from 'components/CompositionElement'
 import Container from 'components/Container'
 import Form from 'components/Form'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
-import SectionBackground from 'components/SectionBackground'
 
 type SectionHeroProps = {
+  _id?: string
   subtitle: string
-  subtitleIcon?: boolean
-  subtitleIconUrl?: string
   title: string
-  description: string
-  linkText: string
   linkIcon: string
   link: string
+  linkText: string
+  description: string
+  subtitleIcon?: boolean
+  subtitleIconUrl?: string
 }
 
 const SectionHero = ({

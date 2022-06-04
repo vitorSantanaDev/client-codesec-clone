@@ -5,9 +5,9 @@ import { mockIconsProps } from './mockData'
 
 describe('<SectionIcons />', () => {
   it('should render icons with description', () => {
-    const { container } = renderTheme(<SectionIcons icons={mockIconsProps} />)
+    const { container } = renderTheme(<SectionIcons {...mockIconsProps} />)
     const icons = screen.getAllByRole('img', {
-      name: /Exclusividade no mercado/i
+      name: mockIconsProps.icons[0].image.altText
     })
     const description = screen.getAllByText(/Exclusividade no mercado/i)
     expect(icons).toHaveLength(7)

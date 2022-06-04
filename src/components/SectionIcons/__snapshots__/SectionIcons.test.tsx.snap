@@ -54,7 +54,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -68,7 +68,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -82,7 +82,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -96,7 +96,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -110,7 +110,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -124,7 +124,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -138,7 +138,7 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
       data-aos="fade-up"
     >
       <img
-        alt="Exclusividade no mercado"
+        alt="Icone de calendario"
         src="/images/icon-calendar.svg"
       />
       <p
@@ -149,4 +149,4 @@ exports[`<SectionIcons /> should render icons with description 1`] = `
     </div>
   </section>
 </div>
-`;
+`
