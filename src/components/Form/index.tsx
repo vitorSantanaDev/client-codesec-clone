@@ -1,4 +1,3 @@
-import { FormEvent } from 'react'
 import { AlertCircleOutline } from '@styled-icons/evaicons-outline/AlertCircleOutline'
 
 import Button from 'components/Button'
@@ -6,6 +5,8 @@ import Heading from 'components/Heading'
 import Input from 'components/Input'
 import Logo from 'components/Logo'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './type'
 import { theme } from 'styles/theme/theme'
 import * as S from './styles'
 
@@ -14,15 +15,6 @@ const inputsData = [
   { type: 'email', id: 'email', name: 'email', placeholder: 'Seu Email' }
 ]
 
-type FormProps = {
-  srcImage: string
-  altText: string
-  url: string
-  title?: string
-  subtitle: string
-  handleSubmit: (event?: FormEvent<HTMLFormElement>) => void
-}
-
 const Form = ({
   srcImage,
   altText,
@@ -30,7 +22,7 @@ const Form = ({
   title,
   subtitle,
   handleSubmit
-}: FormProps) => (
+}: IViewProps) => (
   <S.Wrapper onSubmit={handleSubmit}>
     <Logo className="logo" url={url} srcImage={srcImage} altText={altText} />
     {title ? <Subtitle>{subtitle}</Subtitle> : null}

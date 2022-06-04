@@ -1,22 +1,11 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import { AtOutline } from '@styled-icons/evaicons-outline/AtOutline'
 import { CloseOutline } from '@styled-icons/evaicons-outline/CloseOutline'
 import { PersonOutline } from '@styled-icons/evaicons-outline/PersonOutline'
 import { CheckmarkOutline } from '@styled-icons/evaicons-outline/CheckmarkOutline'
 
+import { IViewProps } from './types'
 import { theme } from 'styles/theme/theme'
 import * as S from './styles'
-
-type InputProps = {
-  id?: string
-  type: string
-  name: string
-  value?: string
-  valueIsValid?: boolean
-  placeholder?: string
-  errorMessage?: string
-  handleChange: (event?: any) => void
-}
 
 const Input = ({
   id,
@@ -27,7 +16,7 @@ const Input = ({
   valueIsValid = false,
   errorMessage = '',
   handleChange
-}: InputProps) => {
+}: IViewProps) => {
   const colorRedPrimary = theme.colors.redPrimary
 
   const inputIsValidOrNotValid =

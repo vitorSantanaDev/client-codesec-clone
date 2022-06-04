@@ -1,9 +1,9 @@
-import { ISectionIconsProps } from 'interfaces/sections'
-
 import Container from 'components/Container'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
-const SectionIcons = ({ icons }: ISectionIconsProps) => (
+const SectionIcons = ({ icons }: IViewProps) => (
   <Container>
     <S.Wrapper>
       {icons.map((icon) => {

@@ -1,14 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { ISectionHeroProps } from 'interfaces/sections'
-
 import SectionBackground from 'components/SectionBackground'
 import CompositionElement from 'components/CompositionElement'
 import Container from 'components/Container'
 import Form from 'components/Form'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
 const SectionHero = ({
@@ -20,7 +20,7 @@ const SectionHero = ({
   linkIcon,
   linkText,
   link
-}: ISectionHeroProps) => {
+}: IViewProps) => {
   return (
     <SectionBackground backgroundImagePath="/images/bg-hero.png">
       <Container>

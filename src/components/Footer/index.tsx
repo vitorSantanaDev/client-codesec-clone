@@ -1,24 +1,10 @@
 import Logo from 'components/Logo'
 import Link from 'next/link'
+
+import { IViewProps } from './type'
 import * as S from './styles'
 
-type FooterProps = {
-  _id?: string
-  logo: {
-    urlImage: string
-    altText: string
-  }
-  footerContent: string
-  socialLinks: {
-    href: string
-    icon: {
-      urlImage: string
-      altText: string
-    }
-  }[]
-}
-
-const Footer = ({ logo, footerContent, socialLinks }: FooterProps) => (
+const Footer = ({ logo, footerContent, socialLinks }: IViewProps) => (
   <S.Wrapper>
     <Logo
       className="logo"

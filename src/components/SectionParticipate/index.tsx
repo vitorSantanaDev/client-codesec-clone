@@ -1,9 +1,9 @@
-import { ISectionParticipateProps } from 'interfaces/sections'
-
 import Button from 'components/Button'
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
 const SectionParticipate = ({
@@ -11,7 +11,7 @@ const SectionParticipate = ({
   title,
   description,
   illustration
-}: ISectionParticipateProps) => (
+}: IViewProps) => (
   <Container>
     <S.Wrapper>
       <S.ContentWrapperLeft data-aos="fade-up-right">

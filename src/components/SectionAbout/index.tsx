@@ -1,8 +1,8 @@
-import { ISectionAboutProps } from 'interfaces/sections'
-
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './type'
 import * as S from './styles'
 
 const SectionAbout = ({
@@ -11,7 +11,7 @@ const SectionAbout = ({
   description,
   topics,
   illustration
-}: ISectionAboutProps) => (
+}: IViewProps) => (
   <Container>
     <S.Wrapper>
       <S.ContentWrapperLeft data-aos="fade-up-right">

@@ -1,11 +1,7 @@
-import { ReactNode } from 'react'
+import { IViewProps } from './types'
 import * as S from './styles'
 
-type ContainerProps = {
-  children: ReactNode
-}
-
-const Container = ({ children }: ContainerProps) => (
+const Container = ({ children }: IViewProps) => (
   <S.Wrapper>{children}</S.Wrapper>
 )
 

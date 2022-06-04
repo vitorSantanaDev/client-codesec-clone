@@ -1,10 +1,10 @@
 import Link from 'next/link'
 
-import { ISectionInstructorProps } from 'interfaces/sections'
-
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
 const SectionInstructor = ({
@@ -12,7 +12,7 @@ const SectionInstructor = ({
   subtitle,
   instructor,
   description
-}: ISectionInstructorProps) => (
+}: IViewProps) => (
   <Container>
     <S.Wrapper>
       <S.AnimateWrapper data-aos="fade-right">

@@ -1,14 +1,7 @@
-import { ReactNode, SyntheticEvent } from 'react'
+import { IViewProps } from './types'
 import * as S from './styles'
 
-type ButtonProps = {
-  children: ReactNode
-  handleClick?: (event?: SyntheticEvent) => void
-  size?: 'large' | 'medium' | 'small'
-  type?: 'button' | 'submit' | 'reset'
-}
-
-const Button = ({ children, handleClick, size = 'medium' }: ButtonProps) => (
+const Button = ({ children, handleClick, size = 'medium' }: IViewProps) => (
   <S.Wrapper size={size} onClick={handleClick}>
     {children}
   </S.Wrapper>

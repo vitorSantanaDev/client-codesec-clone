@@ -1,8 +1,8 @@
-import { ISectionHowItWorksProps } from 'interfaces/sections'
-
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
 const SectionHowItWorks = ({
@@ -10,7 +10,7 @@ const SectionHowItWorks = ({
   title,
   subtitle,
   description
-}: ISectionHowItWorksProps) => (
+}: IViewProps) => (
   <Container>
     <S.Wrapper>
       <S.TitleAndDescriptionWrapper>

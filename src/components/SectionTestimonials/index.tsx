@@ -10,31 +10,12 @@ import { A11y, Navigation, Pagination } from 'swiper'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import Container from 'components/Container'
+
+import { IViewProps } from './types'
 import { theme } from 'styles/theme/theme'
 import * as S from './styles'
 
-type SectionTestimonialsProps = {
-  _id?: string
-  title: string
-  subtitle: string
-  testimonials: {
-    _id: string
-    name: string
-    profession: string
-    city: string
-    description: string
-    photo: {
-      urlImage: string
-      altText: string
-    }
-  }[]
-}
-
-const SectionTestimonials = ({
-  title,
-  subtitle,
-  testimonials
-}: SectionTestimonialsProps) => {
+const SectionTestimonials = ({ title, subtitle, testimonials }: IViewProps) => {
   const swiperRef = useRef(null)
   const slideConfigs: SwiperProps = {
     //@ts-ignore

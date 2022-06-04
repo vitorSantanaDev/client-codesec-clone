@@ -1,14 +1,7 @@
-import { ReactNode } from 'react'
+import { IViewProps } from './types'
 import * as S from './styles'
 
-type SectionBackgroundProps = {
-  children: ReactNode
-  backgroundImagePath: string
-}
-const SectionBackground = ({
-  children,
-  backgroundImagePath
-}: SectionBackgroundProps) => (
+const SectionBackground = ({ children, backgroundImagePath }: IViewProps) => (
   <S.Wrapper bgPath={backgroundImagePath}>{children}</S.Wrapper>
 )
 

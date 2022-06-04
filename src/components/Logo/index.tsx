@@ -1,14 +1,9 @@
 import Link from 'next/link'
+
+import { IViewProps } from './types'
 import * as S from './styles'
 
-type LogoProps = {
-  srcImage: string
-  altText: string
-  url: string
-  className?: string
-}
-
-const Logo = ({ srcImage, altText, url, className }: LogoProps) => (
+const Logo = ({ srcImage, altText, url, className }: IViewProps) => (
   <S.Wrapper>
     <Link href={url}>
       <S.Logo className={className} src={srcImage} alt={altText} />

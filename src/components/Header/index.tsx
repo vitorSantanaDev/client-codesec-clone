@@ -1,14 +1,10 @@
 import Button from 'components/Button'
 import Logo from 'components/Logo'
+
+import { IViewProps } from './type'
 import * as S from './styles'
 
-type HeaderProps = {
-  logo: string
-  logoAltText: string
-  buttontext: string
-}
-
-const Header = ({ logo, logoAltText, buttontext }: HeaderProps) => (
+const Header = ({ logo, logoAltText, buttontext }: IViewProps) => (
   <S.Wrapper>
     <Logo className="logo" url="/" srcImage={logo} altText={logoAltText} />
     <Button size="small">{buttontext}</Button>

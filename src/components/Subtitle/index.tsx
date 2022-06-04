@@ -1,13 +1,5 @@
-import { ReactNode } from 'react'
+import { IViewProps } from './types'
 import * as S from './styles'
-
-type SubtitleProps = {
-  children: ReactNode
-  color?: 'redGradient' | 'redDark' | 'redLight' | 'redPrimary'
-  uppercase?: boolean
-  icon?: boolean
-  iconUrl?: string
-}
 
 const Subtitle = ({
   children,
@@ -15,7 +7,7 @@ const Subtitle = ({
   uppercase = true,
   icon = false,
   iconUrl
-}: SubtitleProps) => (
+}: IViewProps) => (
   <S.Wrapper iconUrl={iconUrl} icon={icon} uppercase={uppercase} color={color}>
     {children}
   </S.Wrapper>

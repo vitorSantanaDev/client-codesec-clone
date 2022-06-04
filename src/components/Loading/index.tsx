@@ -1,10 +1,7 @@
+import { IViewProps } from './types'
 import * as S from './styles'
 
-type LoadingProps = {
-  isLoading: boolean
-}
-
-const Loading = ({ isLoading }: LoadingProps) => (
+const Loading = ({ isLoading }: IViewProps) => (
   <S.Wrapper isLoading={isLoading}>
     <svg
       width="156"
