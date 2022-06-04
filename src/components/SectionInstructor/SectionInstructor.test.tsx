@@ -19,10 +19,9 @@ describe('<SectionInstructor />', () => {
     const nameInstructor = screen.getByRole('heading', {
       name: /name of instructor/i
     })
-    const description = screen.getByText(
-      mockDataSectionInstructor.instructor.description
-    )
-    const urlPhotoInstructor = mockDataSectionInstructor.instructor.photoUrl
+    const description = screen.getByText(mockDataSectionInstructor.description)
+    const urlPhotoInstructor =
+      mockDataSectionInstructor.instructor.photo.urlImage
 
     expect(nameInstructor).toBeInTheDocument()
     expect(description).toBeInTheDocument()

@@ -8,11 +8,13 @@ import * as S from './styles'
 type SectionIntructorProps = {
   title: string
   subtitle: string
+  description: string
   instructor: {
     name: string
-    photoUrl: string
-
-    description: string
+    photo: {
+      urlImage: string
+      altText: string
+    }
     link: {
       linkText: string
       linkUrl: string
@@ -23,7 +25,8 @@ type SectionIntructorProps = {
 const SectionInstructor = ({
   title,
   subtitle,
-  instructor
+  instructor,
+  description
 }: SectionIntructorProps) => (
   <Container>
     <S.Wrapper>
@@ -35,7 +38,7 @@ const SectionInstructor = ({
         <S.InstructorData>
           <S.InstructorPhoto
             data-aos="fade-down"
-            urlImage={instructor.photoUrl || '/images/icon-autor.svg'}
+            urlImage={instructor.photo.urlImage || '/images/icon-autor.svg'}
           />
           <S.InstructorNameAndProfessional data-aos="fade-up">
             <Heading as="h5">{instructor.name}</Heading>
@@ -46,7 +49,7 @@ const SectionInstructor = ({
         </S.InstructorData>
         <S.AboutInstructor>
           <S.DescriptionInstructor data-aos="fade-left">
-            {instructor.description}
+            {description}
           </S.DescriptionInstructor>
           <Link href={instructor.link.linkUrl}>
             <S.LinkMoreInfo>

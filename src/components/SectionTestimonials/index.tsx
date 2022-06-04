@@ -14,18 +14,19 @@ import { theme } from 'styles/theme/theme'
 import * as S from './styles'
 
 interface ITestimonial {
-  id: string
+  _id: string
   name: string
   profession: string
   city: string
   description: string
   photo: {
-    url: string
+    urlImage: string
     altText: string
   }
 }
 
 type SectionTestimonialsProps = {
+  _id: string
   title: string
   subtitle: string
   testimonials: ITestimonial[]
@@ -74,10 +75,10 @@ const SectionTestimonials = ({
         <S.SlideWrapper data-aos="fade-left">
           <Swiper {...slideConfigs}>
             {testimonials.map((testimonial) => (
-              <SwiperSlide key={testimonial.id}>
+              <SwiperSlide key={testimonial._id}>
                 <S.TestimonialInfo>
                   <S.TestimonialPhoto
-                    src={testimonial.photo.url}
+                    src={testimonial.photo.urlImage}
                     alt={testimonial.photo.altText}
                   />
                   <S.TestimonialNameAndOthers>

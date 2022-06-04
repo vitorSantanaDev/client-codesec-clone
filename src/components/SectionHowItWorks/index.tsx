@@ -8,12 +8,13 @@ type ISectionHowItWorks = {
   title: string
   description: string
   steps: {
+    _id: string
     icon: {
       altText: string
-      url: string
+      urlImage: string
     }
-    title: string
-    description: string
+    titleStep: string
+    descriptionStep: string
   }[]
 }
 
@@ -33,16 +34,17 @@ const SectionHowItWorks = ({
         <S.Description data-aos="fade-left">{description}</S.Description>
       </S.TitleAndDescriptionWrapper>
       <S.BoxsWrapper>
-        {steps.map((step, index) => {
-          const key = `${index}-${step.title}`
+        {steps.map((step) => {
           return (
-            <S.AnimateWrapper data-aos="fade-up" key={key}>
+            <S.AnimateWrapper data-aos="fade-up" key={step._id}>
               <S.BoxStep>
-                <S.Icon src={step.icon.url} alt={step.icon.altText} />
+                <S.Icon src={step.icon.urlImage} alt={step.icon.altText} />
                 <Heading as="h5" size="medium">
-                  {step.title}
+                  {step.titleStep}
                 </Heading>
-                <S.DescriptionBoxStep>{step.description}</S.DescriptionBoxStep>
+                <S.DescriptionBoxStep>
+                  {step.descriptionStep}
+                </S.DescriptionBoxStep>
               </S.BoxStep>
             </S.AnimateWrapper>
           )

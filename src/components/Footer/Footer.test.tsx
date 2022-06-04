@@ -17,7 +17,7 @@ describe('<Footer />', () => {
   it('should render amount social links correct', () => {
     renderTheme(<Footer {...mockDataFooterProps} />)
     const links = screen.getAllByAltText(
-      mockDataFooterProps.links[0].icon.altText
+      mockDataFooterProps.socialLinks[0].icon.altText
     )
     expect(links).toHaveLength(3)
   })

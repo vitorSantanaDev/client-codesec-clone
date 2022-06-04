@@ -3,12 +3,13 @@ import Link from 'next/link'
 import * as S from './styles'
 
 type FooterProps = {
+  _id?: string
   logo: {
     urlImage: string
     altText: string
   }
   footerContent: string
-  links: {
+  socialLinks: {
     href: string
     icon: {
       urlImage: string
@@ -17,7 +18,7 @@ type FooterProps = {
   }[]
 }
 
-const Footer = ({ logo, footerContent, links }: FooterProps) => (
+const Footer = ({ logo, footerContent, socialLinks }: FooterProps) => (
   <S.Wrapper>
     <Logo
       className="logo"
@@ -27,7 +28,7 @@ const Footer = ({ logo, footerContent, links }: FooterProps) => (
     />
     <S.FooterContent>{footerContent}</S.FooterContent>
     <S.SocialLinksWrapper>
-      {links.map((link, index) => (
+      {socialLinks.map((link, index) => (
         <Link key={`${index}-${link.href}`} href={link.href}>
           <S.SocialLink>
             <S.SocialLinkIcon

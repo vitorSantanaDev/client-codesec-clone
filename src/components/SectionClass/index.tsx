@@ -5,15 +5,17 @@ import Subtitle from 'components/Subtitle'
 import * as S from './styles'
 
 type SectionClassProps = {
+  _id?: string
   subtitle: string
   title: string
   classs: {
+    _id: string
     dateClass: string
     hourAndDay: string
     classNumber: string
     icon: {
-      url: string
-      altTextIcon: string
+      urlImage: string
+      altText: string
     }
     titleClass: string
     descriptionClass: string
@@ -27,18 +29,17 @@ const SectionClass = ({ subtitle, title, classs }: SectionClassProps) => (
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
       </S.HeadingAndSubtitle>
-      {classs?.map((item, index) => {
-        const key = `${index}-${item.classNumber}`
+      {classs?.map((item) => {
         return (
-          <S.ContentWrapper key={key}>
+          <S.ContentWrapper key={item._id}>
             <S.DateWrapper data-aos="fade-right">
               <Heading>{item.dateClass}</Heading>
               <Subtitle>{item.hourAndDay}</Subtitle>
             </S.DateWrapper>
             <S.Icon
               data-aos="fade-down"
-              src={item.icon.url}
-              alt={item.icon.altTextIcon}
+              src={item.icon.urlImage}
+              alt={item.icon.altText}
             />
             <S.AnimateWrapper data-aos="fade-right">
               <S.BoxContent>

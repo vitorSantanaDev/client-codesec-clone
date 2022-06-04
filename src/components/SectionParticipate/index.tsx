@@ -5,6 +5,7 @@ import Subtitle from 'components/Subtitle'
 import * as S from './styles'
 
 type SectionParticipateProps = {
+  _id?: string
   subtitle: string
   title: string
   description: string

@@ -4,7 +4,7 @@ export const mockDataFooterProps = {
     urlImage: '/images/logo-2-codesec.svg'
   },
   footerContent: 'Todos od direitos reservados',
-  links: [
+  socialLinks: [
     {
       href: '/',
       icon: {
