@@ -6,7 +6,7 @@ export default {
   title: 'SectionIcons',
   component: SectionIcons,
   args: {
-    icons: mockIconsProps
+    ...mockIconsProps
   }
 } as ComponentMeta<typeof SectionIcons>
 
