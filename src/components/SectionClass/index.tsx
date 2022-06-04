@@ -1,28 +1,12 @@
+import { ISectionClassProps } from 'interfaces/sections'
+
 import Button from 'components/Button'
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
 
-type SectionClassProps = {
-  _id?: string
-  subtitle: string
-  title: string
-  classs: {
-    _id: string
-    dateClass: string
-    hourAndDay: string
-    classNumber: string
-    icon: {
-      urlImage: string
-      altText: string
-    }
-    titleClass: string
-    descriptionClass: string
-  }[]
-}
-
-const SectionClass = ({ subtitle, title, classs }: SectionClassProps) => (
+const SectionClass = ({ subtitle, title, classs }: ISectionClassProps) => (
   <Container>
     <S.Wrapper>
       <S.HeadingAndSubtitle data-aos="fade-down">

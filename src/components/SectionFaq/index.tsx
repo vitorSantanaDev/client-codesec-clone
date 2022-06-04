@@ -1,22 +1,13 @@
 import { useState } from 'react'
 import { ChevronUp, ChevronDown } from '@styled-icons/feather'
 
+import { ISectionFaqProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import { theme } from 'styles/theme/theme'
 import * as S from './styles'
-
-type ISectionFaqProps = {
-  subtitle: string
-  title: string
-  questions: {
-    _id: string
-    question: string
-    answer: string
-    open: boolean
-  }[]
-}
 
 const SectionFaq = ({ title, subtitle, questions }: ISectionFaqProps) => {
   const [questionsState, setQuestionsState] = useState(questions)

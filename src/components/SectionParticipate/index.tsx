@@ -1,26 +1,17 @@
+import { ISectionParticipateProps } from 'interfaces/sections'
+
 import Button from 'components/Button'
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
 
-type SectionParticipateProps = {
-  _id?: string
-  subtitle: string
-  title: string
-  description: string
-  illustration: {
-    altText: string
-    urlImage: string
-  }
-}
-
 const SectionParticipate = ({
   subtitle,
   title,
   description,
   illustration
-}: SectionParticipateProps) => (
+}: ISectionParticipateProps) => (
   <Container>
     <S.Wrapper>
       <S.ContentWrapperLeft data-aos="fade-up-right">

@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 
+import { ISectionHeroProps } from 'interfaces/sections'
+
 import SectionBackground from 'components/SectionBackground'
 import CompositionElement from 'components/CompositionElement'
 import Container from 'components/Container'
@@ -8,18 +10,6 @@ import Form from 'components/Form'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
-
-type SectionHeroProps = {
-  _id?: string
-  subtitle: string
-  title: string
-  linkIcon: string
-  link: string
-  linkText: string
-  description: string
-  subtitleIcon?: boolean
-  subtitleIconUrl?: string
-}
 
 const SectionHero = ({
   subtitle,
@@ -30,7 +20,7 @@ const SectionHero = ({
   linkIcon,
   linkText,
   link
-}: SectionHeroProps) => {
+}: ISectionHeroProps) => {
   return (
     <SectionBackground backgroundImagePath="/images/bg-hero.png">
       <Container>

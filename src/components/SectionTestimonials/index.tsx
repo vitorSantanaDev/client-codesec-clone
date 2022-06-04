@@ -13,23 +13,21 @@ import Container from 'components/Container'
 import { theme } from 'styles/theme/theme'
 import * as S from './styles'
 
-interface ITestimonial {
-  _id: string
-  name: string
-  profession: string
-  city: string
-  description: string
-  photo: {
-    urlImage: string
-    altText: string
-  }
-}
-
 type SectionTestimonialsProps = {
-  _id: string
+  _id?: string
   title: string
   subtitle: string
-  testimonials: ITestimonial[]
+  testimonials: {
+    _id: string
+    name: string
+    profession: string
+    city: string
+    description: string
+    photo: {
+      urlImage: string
+      altText: string
+    }
+  }[]
 }
 
 const SectionTestimonials = ({

@@ -1,26 +1,9 @@
+import { ISectionAboutProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
-
-type SectionAboutProps = {
-  _id?: string
-  subtitle: string
-  title: string
-  description: string
-  topics: {
-    _id: string
-    textInfo: string
-    icon: {
-      urlImage: string
-      altText: string
-    }
-  }[]
-  illustration: {
-    urlImage: string
-    altText: string
-  }
-}
 
 const SectionAbout = ({
   subtitle,
@@ -28,7 +11,7 @@ const SectionAbout = ({
   description,
   topics,
   illustration
-}: SectionAboutProps) => (
+}: ISectionAboutProps) => (
   <Container>
     <S.Wrapper>
       <S.ContentWrapperLeft data-aos="fade-up-right">

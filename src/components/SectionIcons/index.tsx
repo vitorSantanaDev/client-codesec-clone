@@ -1,19 +1,9 @@
+import { ISectionIconsProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import * as S from './styles'
 
-type ISectionInconsProps = {
-  _id?: string
-  icons: {
-    _id?: string
-    image: {
-      urlImage: string
-      altText: string
-    }
-    textInfo: string
-  }[]
-}
-
-const SectionIcons = ({ icons }: ISectionInconsProps) => (
+const SectionIcons = ({ icons }: ISectionIconsProps) => (
   <Container>
     <S.Wrapper>
       {icons.map((icon) => {

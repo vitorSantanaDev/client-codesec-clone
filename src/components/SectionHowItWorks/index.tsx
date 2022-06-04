@@ -1,29 +1,16 @@
+import { ISectionHowItWorksProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
-
-type ISectionHowItWorks = {
-  subtitle: string
-  title: string
-  description: string
-  steps: {
-    _id: string
-    icon: {
-      altText: string
-      urlImage: string
-    }
-    titleStep: string
-    descriptionStep: string
-  }[]
-}
 
 const SectionHowItWorks = ({
   steps,
   title,
   subtitle,
   description
-}: ISectionHowItWorks) => (
+}: ISectionHowItWorksProps) => (
   <Container>
     <S.Wrapper>
       <S.TitleAndDescriptionWrapper>

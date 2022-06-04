@@ -1,33 +1,18 @@
 import Link from 'next/link'
 
+import { ISectionInstructorProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import Heading from 'components/Heading'
 import Subtitle from 'components/Subtitle'
 import * as S from './styles'
-
-type SectionIntructorProps = {
-  title: string
-  subtitle: string
-  description: string
-  instructor: {
-    name: string
-    photo: {
-      urlImage: string
-      altText: string
-    }
-    link: {
-      linkText: string
-      linkUrl: string
-    }
-  }
-}
 
 const SectionInstructor = ({
   title,
   subtitle,
   instructor,
   description
-}: SectionIntructorProps) => (
+}: ISectionInstructorProps) => (
   <Container>
     <S.Wrapper>
       <S.AnimateWrapper data-aos="fade-right">

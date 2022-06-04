@@ -1,15 +1,10 @@
+import { ISectionHackerProps } from 'interfaces/sections'
+
 import Container from 'components/Container'
 import Form from 'components/Form'
 import * as S from './styles'
 
-type SectionHackerProps = {
-  illustration: {
-    altText: string
-    urlImage: string
-  }
-}
-
-const SectionHacker = ({ illustration }: SectionHackerProps) => (
+const SectionHacker = ({ illustration }: ISectionHackerProps) => (
   <Container>
     <S.Wrapper>
       <S.Illustration src={illustration.urlImage} alt={illustration.altText} />
