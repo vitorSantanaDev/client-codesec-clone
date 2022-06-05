@@ -1,5 +1,3 @@
-export type IViewProps = {
-  logo: string
-  logoAltText: string
-  buttontext: string
-}
+import { IHeaderProps } from 'interfaces/landingPage'
+
+export type IViewProps = IHeaderProps
