@@ -2,12 +2,20 @@ export interface ISectionHeroProps {
   _id?: string
   subtitle: string
   title: string
-  linkIcon: string
-  link: string
-  linkText: string
+  link: {
+    linkText: string
+    linkUrl: string
+    linkIcon: {
+      urlImage: string
+      altText: string
+    }
+  }
   description: string
   subtitleIcon?: boolean
-  subtitleIconUrl?: string
+  subtitleIconUrl: {
+    urlImage: string
+    altText: string
+  }
 }
 
 export interface ISectionIconsProps {
@@ -60,6 +68,7 @@ export interface ISectionClassProps {
 }
 
 export interface ISectionHowItWorksProps {
+  _id?: string
   subtitle: string
   title: string
   description: string
@@ -75,18 +84,19 @@ export interface ISectionHowItWorksProps {
 }
 
 export interface ISectionInstructorProps {
+  _id?: string
   title: string
   subtitle: string
   description: string
+  link: {
+    linkText: string
+    linkUrl: string
+  }
   instructor: {
     name: string
     photo: {
       urlImage: string
       altText: string
-    }
-    link: {
-      linkText: string
-      linkUrl: string
     }
   }
 }
@@ -120,6 +130,7 @@ export interface ISectionParticipateProps {
 }
 
 export interface ISectionFaqProps {
+  _id?: string
   subtitle: string
   title: string
   questions: {
@@ -131,6 +142,7 @@ export interface ISectionFaqProps {
 }
 
 export interface ISectionHackerProps {
+  _id?: string
   illustration: {
     altText: string
     urlImage: string
