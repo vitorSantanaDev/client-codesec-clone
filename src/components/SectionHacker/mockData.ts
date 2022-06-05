@@ -1,4 +1,8 @@
-export const mockDataSectionHacker = {
-  altText: 'Illustation',
-  urlImage: '/images/section-hacker-illustration.svg'
+import { IViewProps } from './types'
+
+export const mockDataSectionHacker: IViewProps = {
+  illustration: {
+    altText: 'Illustation',
+    urlImage: '/images/section-hacker-illustration.svg'
+  }
 }

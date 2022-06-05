@@ -1,4 +1,6 @@
-export const mockDataSectionFaq = {
+import { IViewProps } from './types'
+
+export const mockDataSectionFaq: IViewProps = {
   subtitle: 'FAQ',
   title: 'Perguntas frequentes',
   questions: [

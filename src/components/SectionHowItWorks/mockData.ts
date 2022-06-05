@@ -1,4 +1,6 @@
-export const mockDataSectionProps = {
+import { IViewProps } from './types'
+
+export const mockDataSectionProps: IViewProps = {
   title: 'Title Section example',
   subtitle: 'Subtitle',
   description:

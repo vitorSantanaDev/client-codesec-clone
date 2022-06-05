@@ -1,4 +1,6 @@
-export const mockDataFooterProps = {
+import { IViewProps } from './type'
+
+export const mockDataFooterProps: IViewProps = {
   logo: {
     altText: 'logo codesec',
     urlImage: '/images/logo-2-codesec.svg'

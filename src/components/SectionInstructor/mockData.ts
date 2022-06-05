@@ -1,4 +1,6 @@
-export const mockDataSectionInstructor = {
+import { IViewProps } from './types'
+
+export const mockDataSectionInstructor: IViewProps = {
   title: 'Title Example Instructor Section',
   subtitle: 'Subtitle',
   description:
@@ -8,10 +10,10 @@ export const mockDataSectionInstructor = {
     photo: {
       urlImage: '',
       altText: ''
-    },
-    link: {
-      linkText: 'Saiba mais',
-      linkUrl: 'https://google.com.br'
     }
+  },
+  link: {
+    linkText: 'Saiba mais',
+    linkUrl: 'https://google.com.br'
   }
 }

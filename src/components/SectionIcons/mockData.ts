@@ -1,4 +1,6 @@
-export const mockIconsProps = {
+import { IViewProps } from './types'
+
+export const mockIconsProps: IViewProps = {
   _id: String(Math.random() * 1000),
   icons: [
     {

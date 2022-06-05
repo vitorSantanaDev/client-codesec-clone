@@ -1,4 +1,6 @@
-export const mockDataSection = {
+import { IViewProps } from './types'
+
+export const mockDataSection: IViewProps = {
   subtitle: 'Participe',
   title: 'Aprenda Webhacking',
   description:

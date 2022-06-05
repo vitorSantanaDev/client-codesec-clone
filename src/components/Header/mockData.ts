@@ -1,5 +1,12 @@
-export const mockHeaderProps = {
-  logo: '/images/codesec-logo.svg',
-  logoAltText: 'Logo codesec',
-  buttontext: 'Inscreva-se'
+import { IViewProps } from './type'
+
+export const mockHeaderProps: IViewProps = {
+  logo: {
+    urlImage: '/images/codesec-logo.svg',
+    altText: 'Logo codesec'
+  },
+  button: {
+    url: '/',
+    buttonText: 'Inscreva-se'
+  }
 }

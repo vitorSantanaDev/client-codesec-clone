@@ -1,10 +1,19 @@
 export const mockSectionHeroProps = {
+  _id: '48735948573',
   subtitle: 'Subtitle Example content',
-  subtitleIcon: true,
-  subtitleIconUrl: '/images/icon-key.svg',
   title: 'Aprenda Web Hacking do zero ao avançado',
+  link: {
+    linkText: 'Ler mais',
+    linkUrl: '/',
+    linkIcon: {
+      urlImage: '/images/icon-eye.svg',
+      altText: 'Icone'
+    }
+  },
   description: 'Lorem ipsum dolor sit amet',
-  linkIcon: '/images/icon-eye.svg',
-  linkText: 'Ler mais',
-  link: '/'
+  subtitleIcon: true,
+  subtitleIconUrl: {
+    urlImage: '/images/icon-key.svg',
+    altText: 'Icone'
+  }
 }
