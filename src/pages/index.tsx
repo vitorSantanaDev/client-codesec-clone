@@ -1,55 +1,60 @@
 import { useEffect } from 'react'
+import { GetStaticProps } from 'next'
+
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
-import {
-  Header,
-  SectionHero,
-  SectionIcons,
-  SectionAbout,
-  SectionClass,
-  SectionHowItWorks,
-  SectionInstructor,
-  SectionTestimonials,
-  SectionParticipate,
-  SectionFaq,
-  SectionHacker,
-  Footer
-} from 'components'
+import client from 'graphql/client'
+import GET_LANDING_PAGE from 'graphql/queries/getLandingPage'
 
-import { mockHeaderProps } from 'components/Header/mockData'
-import { mockSectionHeroProps } from 'components/SectionHero/mockData'
-import { mockIconsProps } from 'components/SectionIcons/mockData'
-import { mockSectionAboutProps } from 'components/SectionAbout/mockData'
-import { mockDataSectionClassProps } from 'components/SectionClass/mockData'
-import { mockDataSectionProps } from 'components/SectionHowItWorks/mockData'
-import { mockDataSectionInstructor } from 'components/SectionInstructor/mockData'
-import { mockDataSectionTestimonials } from 'components/SectionTestimonials/mockData'
-import { mockDataSection } from 'components/SectionParticipate/mockData'
-import { mockDataSectionFaq } from 'components/SectionFaq/mockData'
-import { mockDataSectionHacker } from 'components/SectionHacker/mockData'
-import { mockDataFooterProps } from 'components/Footer/mockData'
+import { ILandingPage } from 'interfaces/landingPage'
 
-const Home = () => {
+import HomeTemplate from 'templates/Home'
+
+const Home = ({
+  header,
+  sectionHero,
+  sectionInfos,
+  sectionAbout,
+  sectionClass,
+  sectionHowItWorks,
+  sectionInstructor,
+  sectionTestimonials,
+  sectionParticipate,
+  sectionFaq,
+  sectionHacker,
+  footer
+}: ILandingPage) => {
+  const landingPageData = {
+    header,
+    sectionHero,
+    sectionInfos,
+    sectionAbout,
+    sectionClass,
+    sectionHowItWorks,
+    sectionInstructor,
+    sectionTestimonials,
+    sectionParticipate,
+    sectionFaq,
+    sectionHacker,
+    footer
+  }
+
   useEffect(() => {
     Aos.init({ duration: 1500 })
   }, [])
-  return (
-    <>
-      <Header {...mockHeaderProps} />
-      <SectionHero {...mockSectionHeroProps} />
-      <SectionIcons {...mockIconsProps} />
-      <SectionAbout {...mockSectionAboutProps} />
-      <SectionClass {...mockDataSectionClassProps} />
-      <SectionHowItWorks {...mockDataSectionProps} />
-      <SectionInstructor {...mockDataSectionInstructor} />
-      <SectionTestimonials {...mockDataSectionTestimonials} />
-      <SectionParticipate {...mockDataSection} />
-      <SectionFaq {...mockDataSectionFaq} />
-      <SectionHacker illustration={mockDataSectionHacker} />
-      <Footer {...mockDataFooterProps} />
-    </>
-  )
+
+  return <HomeTemplate {...landingPageData} />
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  const { landingPage } = await client.request(GET_LANDING_PAGE)
+
+  return {
+    props: {
+      ...landingPage
+    }
+  }
 }
 
 export default Home
