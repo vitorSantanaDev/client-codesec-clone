@@ -31,6 +31,8 @@ export const ContentWrapperLeft = styled.div`
     }
   `}
 `
+export const AnimateWrapper = styled.div``
+
 export const ContentWrapperRight = styled.div`
   ${() => css``}
 `

@@ -41,6 +41,7 @@ export const TitleAndDescriptionWrapper = styled.div`
     margin-bottom: ${theme.spacings.huge};
 
     @media screen and (max-width: 520px) {
+      justify-content: center;
       grid-template-columns: 1fr;
     }
   `}
@@ -65,7 +66,8 @@ export const BoxsWrapper = styled.div`
     justify-content: space-between;
 
     @media ${theme.media.lteMedium} {
-      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
     }
   `}
 `

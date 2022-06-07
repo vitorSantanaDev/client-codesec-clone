@@ -188,15 +188,23 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
 
 @media screen and (max-width:520px) {
   .c2 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     grid-template-columns: 1fr;
   }
 }
 
 @media (max-width:768px) {
   .c9 {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
@@ -211,7 +219,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
     >
       <div
         class="c3"
-        data-aos="fade-up"
+        data-aos="fade-right"
       >
         <span
           class="c4 c5"
@@ -228,7 +236,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <p
         class="c8"
-        data-aos="fade-left"
+        data-aos="fade-right"
       >
         Lorem ipsum dolor sit amet pretium sed, ullamcorper vel nisi. Cras varius ex sed dapibus sagittis. Cras orci libero, vestibulum tristique enim vel, volutpat euismod ligula.
       </p>
@@ -238,7 +246,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
     >
       <div
         class=""
-        data-aos="fade-up"
+        data-aos="fade-up-right"
       >
         <div
           class="c10"
@@ -263,7 +271,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <div
         class=""
-        data-aos="fade-up"
+        data-aos="fade-up-right"
       >
         <div
           class="c10"
@@ -288,7 +296,7 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
       </div>
       <div
         class=""
-        data-aos="fade-up"
+        data-aos="fade-up-right"
       >
         <div
           class="c10"
@@ -314,4 +322,4 @@ exports[`<SectionHowItWorks /> should match snapshots 1`] = `
     </div>
   </section>
 </div>
-`;
+`

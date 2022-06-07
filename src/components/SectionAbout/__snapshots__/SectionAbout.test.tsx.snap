@@ -123,22 +123,27 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
   >
     <div
       class="c2"
-      data-aos="fade-up-right"
     >
-      <span
-        class="c3 c4"
-        color="redGradient"
+      <div
+        class=""
+        data-aos="fade-right"
       >
-        infos
-      </span>
-      <h1
-        class="c5 c6"
-        color="white"
-      >
-        About web series
-      </h1>
+        <span
+          class="c3 c4"
+          color="redGradient"
+        >
+          infos
+        </span>
+        <h1
+          class="c5 c6"
+          color="white"
+        >
+          About web series
+        </h1>
+      </div>
       <div
         class="c7"
+        data-aos="fade-right"
       >
         Aprenda PHP do Jeito Certo Utilizando 100% de Tecnologia Moderna e os Melhores Padrões de Projeto Nessa Webserie 100% Online e GRATUITA!
       </div>
@@ -147,6 +152,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
       >
         <span
           class="c8"
+          data-aos="fade-up-right"
         >
           <img
             alt="icone"
@@ -157,6 +163,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
         </span>
         <span
           class="c8"
+          data-aos="fade-up-right"
         >
           <img
             alt="icone"
@@ -167,6 +174,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
         </span>
         <span
           class="c8"
+          data-aos="fade-up-right"
         >
           <img
             alt="icone"
@@ -177,6 +185,7 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
         </span>
         <span
           class="c8"
+          data-aos="fade-up-right"
         >
           <img
             alt="icone"
@@ -189,11 +198,11 @@ exports[`<SectionAbout /> should to match snapshot 1`] = `
     </div>
     <div
       class=""
+      data-aos="fade-up"
     >
       <img
         alt="Illustration about"
         class="c10"
-        data-aos="fade-up-left"
         src="/images/about-ilustration.svg"
       />
     </div>

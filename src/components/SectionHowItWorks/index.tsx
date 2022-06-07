@@ -14,16 +14,16 @@ const SectionHowItWorks = ({
   <Container>
     <S.Wrapper>
       <S.TitleAndDescriptionWrapper>
-        <S.ContentWrapper data-aos="fade-up">
+        <S.ContentWrapper data-aos="fade-right">
           <Subtitle>{subtitle}</Subtitle>
           <Heading>{title}</Heading>
         </S.ContentWrapper>
-        <S.Description data-aos="fade-left">{description}</S.Description>
+        <S.Description data-aos="fade-right">{description}</S.Description>
       </S.TitleAndDescriptionWrapper>
       <S.BoxsWrapper>
         {steps.map((step) => {
           return (
-            <S.AnimateWrapper data-aos="fade-up" key={step._id}>
+            <S.AnimateWrapper data-aos="fade-up-right" key={step._id}>
               <S.BoxStep>
                 <S.Icon src={step.icon.urlImage} alt={step.icon.altText} />
                 <Heading as="h5" size="medium">

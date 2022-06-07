@@ -13,7 +13,7 @@ const SectionClass = ({ subtitle, title, classs }: IViewProps) => (
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
       </S.HeadingAndSubtitle>
-      {classs?.map((item) => {
+      {classs.map((item) => {
         return (
           <S.ContentWrapper key={item._id}>
             <S.DateWrapper data-aos="fade-right">

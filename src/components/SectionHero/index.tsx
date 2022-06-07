@@ -12,29 +12,31 @@ import { IViewProps } from './types'
 import * as S from './styles'
 
 const SectionHero = ({
-  subtitle,
-  subtitleIcon,
-  subtitleIconUrl,
+  link,
   title,
+  subtitle,
   description,
-  linkIcon,
-  linkText,
-  link
+  subtitleIcon,
+  subtitleIconUrl
 }: IViewProps) => {
   return (
     <SectionBackground backgroundImagePath="/images/bg-hero.png">
       <Container>
         <S.Wrapper>
           <S.ContentWrapper data-aos="fade-up" data-aos-duration="1500">
-            <Subtitle icon={subtitleIcon} iconUrl={subtitleIconUrl}>
+            <Subtitle icon={subtitleIcon} iconUrl={subtitleIconUrl.urlImage}>
               {subtitle}
             </Subtitle>
             <Heading>{title}</Heading>
             <S.Description>{description}</S.Description>
-            <Link href={link || ''}>
+            <Link href={link.linkUrl || ''}>
               <S.LinkElement>
-                <Subtitle icon={true} iconUrl={linkIcon}>
-                  {linkText}
+                <Subtitle
+                  icon={true}
+                  uppercase={false}
+                  iconUrl={link.linkIcon.urlImage}
+                >
+                  {link.linkText}
                 </Subtitle>
               </S.LinkElement>
             </Link>

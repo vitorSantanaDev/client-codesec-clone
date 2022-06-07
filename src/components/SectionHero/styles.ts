@@ -4,7 +4,7 @@ import { Wrapper as Heading } from 'components/Heading/styles'
 
 export const Wrapper = styled.section`
   ${({ theme }) => css`
-    padding: calc(${theme.spacings.xxhuge} + 6rem)
+    padding: calc(${theme.spacings.xxhuge} + 3rem)
       calc(${theme.spacings.medium} - 1.4rem);
 
     display: grid;

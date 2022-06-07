@@ -14,14 +14,16 @@ const SectionAbout = ({
 }: IViewProps) => (
   <Container>
     <S.Wrapper>
-      <S.ContentWrapperLeft data-aos="fade-up-right">
-        <Subtitle>{subtitle}</Subtitle>
-        <Heading>{title}</Heading>
-        <S.Description>{description}</S.Description>
+      <S.ContentWrapperLeft>
+        <S.AnimateWrapper data-aos="fade-right">
+          <Subtitle>{subtitle}</Subtitle>
+          <Heading>{title}</Heading>
+        </S.AnimateWrapper>
+        <S.Description data-aos="fade-right">{description}</S.Description>
         <S.TopicsWrapper>
           {topics.map((topic) => {
             return (
-              <S.Topic key={topic._id}>
+              <S.Topic data-aos="fade-up-right" key={topic._id}>
                 <S.TopicIcon
                   src={topic.icon.urlImage}
                   alt={topic.icon.altText}
@@ -32,12 +34,8 @@ const SectionAbout = ({
           })}
         </S.TopicsWrapper>
       </S.ContentWrapperLeft>
-      <S.ContentWrapperRight>
-        <S.Ilustration
-          data-aos="fade-up-left"
-          src={illustration.urlImage}
-          alt={illustration.altText}
-        />
+      <S.ContentWrapperRight data-aos="fade-up">
+        <S.Ilustration src={illustration.urlImage} alt={illustration.altText} />
       </S.ContentWrapperRight>
     </S.Wrapper>
   </Container>

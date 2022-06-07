@@ -14,13 +14,13 @@ const SectionParticipate = ({
 }: IViewProps) => (
   <Container>
     <S.Wrapper>
-      <S.ContentWrapperLeft data-aos="fade-up-right">
+      <S.ContentWrapperLeft data-aos="fade-right">
         <Subtitle>{subtitle}</Subtitle>
         <Heading>{title}</Heading>
         <S.Description>{description}</S.Description>
         <Button size="medium">Quero me cadastrar</Button>
       </S.ContentWrapperLeft>
-      <S.ContentWrapperRight data-aos="fade-up-left">
+      <S.ContentWrapperRight data-aos="fade-up">
         <S.Illustration
           src={illustration.urlImage}
           alt={illustration.altText}

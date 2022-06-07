@@ -5,13 +5,13 @@ import { mockDataSectionHacker } from './mockData'
 
 describe('<SectionHacker />', () => {
   it('should render illustration', () => {
-    renderTheme(<SectionHacker illustration={mockDataSectionHacker} />)
+    renderTheme(<SectionHacker {...mockDataSectionHacker} />)
     const illustration = screen.getByRole('img', { name: /Illustation/i })
     expect(illustration).toBeInTheDocument()
   })
   it('should match snapshot', () => {
     const { container } = renderTheme(
-      <SectionHacker illustration={mockDataSectionHacker} />
+      <SectionHacker {...mockDataSectionHacker} />
     )
     expect(container.firstChild).toMatchSnapshot()
   })

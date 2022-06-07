@@ -11,7 +11,8 @@ const SectionInstructor = ({
   title,
   subtitle,
   instructor,
-  description
+  description,
+  link
 }: IViewProps) => (
   <Container>
     <S.Wrapper>
@@ -22,7 +23,7 @@ const SectionInstructor = ({
       <S.InstructorInfoWrapper>
         <S.InstructorData>
           <S.InstructorPhoto
-            data-aos="fade-down"
+            data-aos="fade-up-right"
             urlImage={instructor.photo.urlImage || '/images/icon-autor.svg'}
           />
           <S.InstructorNameAndProfessional data-aos="fade-up">
@@ -32,15 +33,11 @@ const SectionInstructor = ({
             </S.InstructorProfessional>
           </S.InstructorNameAndProfessional>
         </S.InstructorData>
-        <S.AboutInstructor>
-          <S.DescriptionInstructor data-aos="fade-left">
-            {description}
-          </S.DescriptionInstructor>
-          <Link href={instructor.link.linkUrl}>
+        <S.AboutInstructor data-aos="fade-right">
+          <S.DescriptionInstructor>{description}</S.DescriptionInstructor>
+          <Link href={link.linkUrl}>
             <S.LinkMoreInfo>
-              <Subtitle data-aos="fade-right">
-                {instructor.link.linkText}
-              </Subtitle>
+              <Subtitle>{link.linkText}</Subtitle>
             </S.LinkMoreInfo>
           </Link>
         </S.AboutInstructor>

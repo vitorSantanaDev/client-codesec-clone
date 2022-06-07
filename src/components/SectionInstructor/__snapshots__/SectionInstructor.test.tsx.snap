@@ -226,7 +226,7 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
       >
         <div
           class="c8"
-          data-aos="fade-down"
+          data-aos="fade-up-right"
         />
         <div
           class="c9"
@@ -247,10 +247,10 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
       </div>
       <div
         class="c11"
+        data-aos="fade-right"
       >
         <p
           class="c12"
-          data-aos="fade-left"
         >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est mus nisi, sed in tempor. Nisl sit iaculis nulla consectetur. Purus egestas sit eget viverra. Nisi id in porta nec, a a. Eu in dis et, morbi ut at pellentesque. Massa eu amet morbi eu diam ultricies tellus aliquet. Vel, amet dolor cursus lorem quis amet sed. Mollis diam a purus nulla non, mattis proin odio. Facilisis molestie nibh egestas lacus adipiscing.
         </p>
@@ -268,4 +268,4 @@ exports[`<SectionInstructor /> should match snapshot 1`] = `
     </div>
   </section>
 </div>
-`;
+`

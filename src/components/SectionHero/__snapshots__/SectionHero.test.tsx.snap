@@ -169,7 +169,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
   -moz-letter-spacing: 15%;
   -ms-letter-spacing: 15%;
   letter-spacing: 15%;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: calc(1.6rem - 0.2rem);
 }
 
@@ -260,7 +260,7 @@ exports[`<SectionHero /> should to match snapshot 1`] = `
 }
 
 .c2 {
-  padding: calc(8rem + 6rem) calc(2.4rem - 1.4rem);
+  padding: calc(8rem + 3rem) calc(2.4rem - 1.4rem);
   display: grid;
   -webkit-align-items: center;
   -webkit-box-align: center;
