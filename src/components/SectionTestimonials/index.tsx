@@ -36,7 +36,7 @@ const SectionTestimonials = ({ title, subtitle, testimonials }: IViewProps) => {
             <Subtitle>{subtitle}</Subtitle>
             <Heading size="large">{title}</Heading>
           </S.AnimateWrapper>
-          <S.ButtonsSlideWrapper data-aos="fade-up-right">
+          <S.ButtonsSlideWrapper data-aos="fade-right">
             <S.ButtonSlide
               //@ts-ignore
               onClick={() => swiperRef.current?.swiper.slidePrev()}
@@ -51,7 +51,7 @@ const SectionTestimonials = ({ title, subtitle, testimonials }: IViewProps) => {
             </S.ButtonSlide>
           </S.ButtonsSlideWrapper>
         </S.TitleAndSubtitleAndButtonWrapper>
-        <S.SlideWrapper data-aos="fade-left">
+        <S.SlideWrapper data-aos="fade-up">
           <Swiper {...slideConfigs}>
             {testimonials.map((testimonial) => (
               <SwiperSlide key={testimonial._id}>
