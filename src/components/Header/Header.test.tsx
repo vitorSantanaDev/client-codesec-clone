@@ -17,7 +17,7 @@ describe('<Header />', () => {
   it('should render Header with correct styles', () => {
     const { container } = renderTheme(<Header {...mockHeaderProps} />)
     expect(container.firstChild).toHaveStyle({
-      'z-index': '9999',
+      'z-index': '200',
       position: 'fixed'
     })
     expect(container.firstChild).toMatchSnapshot()

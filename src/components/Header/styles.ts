@@ -6,11 +6,10 @@ export const Wrapper = styled.header`
     width: 100%;
     padding: calc(${theme.spacings.small} - 0.6rem);
 
-    z-index: 9999;
+    z-index: 200;
     position: fixed;
 
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 
@@ -23,11 +22,6 @@ export const Wrapper = styled.header`
 
     ${LogoElement} {
       width: 220px;
-    }
-
-    @media ${theme.media.lteMedium} {
-      align-items: center;
-      justify-content: space-between;
     }
 
     .logo {
