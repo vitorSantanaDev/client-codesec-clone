@@ -8,40 +8,38 @@ exports[`<Loading /> should render Loading with correct bg 1`] = `
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   overflow: hidden;
   z-index: 1000;
   top: 0;
   left: 0;
   position: absolute;
   background: linear-gradient(243.46deg,#FA5770 16.66%,#E83752 83.34%);
-  -webkit-animation: eZrVuf 1s ease forwards;
-  animation: eZrVuf 1s ease forwards;
 }
 
 .c0 .eye {
   fill: transparent;
-  -webkit-animation: esqHXa 5s ease infinite alternate;
-  animation: esqHXa 5s ease infinite alternate;
+  -webkit-animation: esqHXa 10s ease infinite alternate;
+  animation: esqHXa 10s ease infinite alternate;
 }
 
 .c0 .letter {
   fill: transparent;
-  -webkit-animation: ikfOJR 5s ease infinite alternate;
-  animation: ikfOJR 5s ease infinite alternate;
+  -webkit-animation: ikfOJR 10s ease infinite alternate;
+  animation: ikfOJR 10s ease infinite alternate;
 }
 
 .c0 .key {
   fill: transparent;
-  -webkit-animation: ikfOJR 5s ease infinite alternate;
-  animation: ikfOJR 5s ease infinite alternate;
+  -webkit-animation: ikfOJR 10s ease infinite alternate;
+  animation: ikfOJR 10s ease infinite alternate;
 }
 
 <div

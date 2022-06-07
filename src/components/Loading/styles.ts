@@ -62,8 +62,8 @@ export const Wrapper = styled.div<LoadingProps>`
     height: 100vh;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 
     overflow: hidden;
     z-index: 1000;
@@ -72,24 +72,24 @@ export const Wrapper = styled.div<LoadingProps>`
     left: 0;
     position: absolute;
     background: ${theme.colors.redGradient};
-    ${isLoading
+    ${!isLoading
       ? css`
-          animation: ${animationContainer} 1s ease forwards;
+          animation: ${animationContainer} 0.5s ease forwards;
         `
       : ''}
     .eye {
       fill: transparent;
-      animation: ${animationEye} 5s ease infinite alternate;
+      animation: ${animationEye} 10s ease infinite alternate;
     }
 
     .letter {
       fill: transparent;
-      animation: ${animationStroker} 5s ease infinite alternate;
+      animation: ${animationStroker} 10s ease infinite alternate;
     }
 
     .key {
       fill: transparent;
-      animation: ${animationStroker} 5s ease infinite alternate;
+      animation: ${animationStroker} 10s ease infinite alternate;
     }
   `}
 `
