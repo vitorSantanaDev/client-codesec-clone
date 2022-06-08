@@ -45,7 +45,7 @@ declare module 'styled-components' {
       lteLarge: string
       ltexLarge: string
       lteSmall: string
-      ltexSmall: string
+      lteXSmall: string
     }
     spacings: {
       small: string
