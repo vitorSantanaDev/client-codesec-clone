@@ -6,7 +6,7 @@ export default {
   title: 'SectionHacker',
   component: SectionHacker,
   args: {
-    illustration: mockDataSectionHacker
+    ...mockDataSectionHacker
   }
 } as ComponentMeta<typeof SectionHacker>
 
