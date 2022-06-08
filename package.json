@@ -16,7 +16,9 @@
     "test:unit:watch": "jest --watchAll",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "export": "next export",
+    "deploy": "yarn build && next export"
   },
   "lint-staged": {
     "src/**/*": [
