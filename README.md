@@ -1,34 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# A simple landing page created in Next.js
 
-## Getting Started
+<p>Landing Page React.</p>
 
-First, run the development server:
+<p>
+  <img src="https://img.shields.io/badge/made%20by-Vitor%20Santana-E83752?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vitorSantanaDev/client-codesec-clone?color=E83752&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/vitorSantanaDev/client-landing-page-react?color=E83752&style=flat-square">
+</p>
+
+<img align="right" src="./public/images/logo-2-codesec.svg" height="120">
+
+## Tópicos
+
+[Sobre a aplicação](#sobre-a-landing-page)
+
+[Funcionalidades](#funcionalidades)
+
+[Tecnologias e Ferramentas](#tecnologias-e-ferramentas)
+
+[Instalação e uso](#instalação-e-uso)
+
+<br>
+
+## Landing Page Next.js
+
+<br>
+
+📌
+
+<br>
+
+🗃️ Todo o conteúdo é gerado de forma dinâmica, vindo de uma api, feita utilizando o CMS strapi.
+
+<br>
+<br>
+
+## Funcionalidades
+
+- [x] Navegação por tabs
+- [x] Designer responsivo
+
+<br>
+
+## Tecnologias e Ferramentas
+
+As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+
+- [HTML](https://devdocs.io/html/)
+- [CSS](https://devdocs.io/css/)
+- [JavaScript](https://devdocs.io/javascript/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Next Js](https://nextjs.org/)
+- [styled-components](https://styled-components.com/)
+- [Jest](https://jestjs.io/pt-BR/)
+- [React testing library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Storybook](https://storybook.js.org/)
+- [Strapi](https://strapi.io/)
+- [GraphQL](https://graphql.org/)
+
+<br>
+
+## Instalação e Uso
+
+Para rodar a aplicação, você precisa instalar o [Node](https://nodejs.org/en/)
+
+Siga os passos abaixo:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/vitorSantanaDev/client-codesec-clone.git
+# ou use a opção de download.
+
+# Entre na pasta com
+$ cd client-codesec-clone
+
+# Instale as dependências
+$ yarn install
+
+# Rode a aplicação
+$ yarn start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Feito com :yellow_heart: by [Vitor_Santana](https://github.com/vitorSantanaDev)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Linkedin Badge](https://img.shields.io/badge/-Vitor%20Santana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vitor-santana-bbb607217/)](https://www.linkedin.com/in/vitor-santana-bbb607217/)
+[![Gmail Badge](https://img.shields.io/badge/-vitorsantana.developer@gmail-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vitorsantana.developer@gmail)](mailto:vitorsantana.developer@gmail)
