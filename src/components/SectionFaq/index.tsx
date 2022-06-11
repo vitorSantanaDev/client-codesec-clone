@@ -24,13 +24,9 @@ const SectionFaq = ({ title, subtitle, questions }: IViewProps) => {
           <Subtitle>{subtitle}</Subtitle>
           <Heading>{title}</Heading>
         </S.HeadingAndSubtitleWrapper>
-        <S.AccordionsWrapper>
+        <S.AccordionsWrapper data-aos="fade-up-right">
           {questionsState.map((question, index) => (
-            <S.Accordion
-              data-aos="fade-up-right"
-              showAnswer={question.open}
-              key={question._id}
-            >
+            <S.Accordion showAnswer={question.open} key={question._id}>
               <S.AccordionHeader>
                 <Heading size="small" as="h6">
                   {question.question}

@@ -200,10 +200,10 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
     </div>
     <div
       class=""
+      data-aos="fade-up-right"
     >
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -245,7 +245,6 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
       </div>
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -287,7 +286,6 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
       </div>
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -329,7 +327,6 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
       </div>
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -371,7 +368,6 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
       </div>
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -413,7 +409,6 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
       </div>
       <div
         class="c7"
-        data-aos="fade-up-right"
       >
         <div
           class="c8"
@@ -456,4 +451,4 @@ exports[`<SectionFaq /> should match snapshot 1`] = `
     </div>
   </section>
 </div>
-`;
+`
