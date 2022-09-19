@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.34.0",
-    "@styled-icons/feather": "^10.34.0",
+    "@styled-icons/feather": "^10.46.0",
     "aos": "^2.3.4",
     "graphql": "^16.6.0",
     "graphql-request": "^5.0.0",
