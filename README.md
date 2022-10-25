@@ -23,7 +23,7 @@
 ## Landing Page Next.js
 
 <br>
- :memo: O projeto consiste em uma simples landing page, construída em Next.JS utilizando o conceito de SSG(Static Site Generation). Todo o template é cosntruído no momento de build da aplicação, fazendo com que não seja necessário bater na API novamente, pra gerar o conteúdo, já que todo ele é gerado no momento de build da aplicação.
+ :memo: O projeto consiste em uma simples landing page, construída em Next.JS utilizando o conceito de SSG(Static Site Generation). Todo o template é cosntruído no momento de build da aplicação, fazendo com que não seja necessário bater na API novamente para gerar o conteúdo, já que todo ele é gerado no momento de build da aplicação.
 <br>
 <br>
 :card_file_box: Todo o conteúdo é disponibilizado através de uma simples API feita com o CMS Strapi(Gerenciador de conteúdo), fazendo com que eu tenha a liberdade pra mudar o conteúdo da página futuramente.
