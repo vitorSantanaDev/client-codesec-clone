@@ -35,10 +35,6 @@
 :white_check_mark: Os testes dos componentes foram feitos com Jest e React Testing Library, foram testes simples, mas que garantiu um pouco mais de qualidade aos componentes dessa landing page.
 <br>
 <br>
-:rocket: O Deploy da aplicação foi feito na Netlify, onde é possível hospedar estáticos de maneira rápida e fácil.
-Segue o link da landing page.
-
-[CodeSec-clone](https://codesec-clone.netlify.app)
 
 ## Tecnologias e Ferramentas
 
